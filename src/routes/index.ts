@@ -1,14 +1,8 @@
-import { TRoutesInput } from '../types/routes'
-import VideoController from '../controllers/video'
+import { Router } from 'express'
 
-export default ({ app }: TRoutesInput) => {
-  app.post('/videos', async (req, res) => {
-    const video = await VideoController.createVideo({
-      name: req.body.name,
-      duration: req.body.duration,
-      labels: req.body.labels,
-    })
+import videos from './videos'
 
-    return res.send({ video })
-  })
-}
+const router = Router()
+router.use('/', videos)
+
+export default router

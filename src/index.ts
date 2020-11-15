@@ -20,4 +20,4 @@ app.listen(port, () =>
 const db = 'mongodb://localhost:27017/test'
 
 connect({ db })
-routes({ app })
+app.use(routes)
