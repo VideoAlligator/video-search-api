@@ -4,13 +4,15 @@ import VideoController from '../controllers/videos'
 const router = Router()
 
 router.post('/videos', async (req, res) => {
-  const video = await VideoController.createVideo({
-    name: req.body.name,
-    duration: req.body.duration,
-    labels: req.body.labels,
-  })
+  VideoController.create(res, req.body)
+})
 
-  return res.send({ video })
+router.get('/videos', async (req, res) => {
+  VideoController.list(res)
+})
+
+router.get('/videos/:videoId', async (req, res) => {
+  VideoController.retrieve(res, req.params.videoId)
 })
 
 export default router
