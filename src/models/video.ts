@@ -1,15 +1,19 @@
 import mongoose, { Schema, Document } from 'mongoose'
 
 export interface IVideo extends Document {
-  name: string
+  title: string
   duration: number
-  labels?: string[]
+  overview?: string
+  genres?: [string]
+  keywords?: [string]
 }
 
 const VideoSchema: Schema = new Schema({
-  name: { type: String, required: true, unique: true },
+  title: { type: String, required: true },
   duration: { type: Number, required: true },
-  labels: { type: [String] },
+  overview: { type: String },
+  genres: { type: [String] },
+  keywords: { type: [String] },
 })
 
 // Export the model and return your IVideo interface

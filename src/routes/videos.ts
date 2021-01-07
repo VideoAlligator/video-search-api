@@ -15,4 +15,12 @@ router.get('/videos/:videoId', async (req, res) => {
   VideoController.retrieve(res, req.params.videoId)
 })
 
+router.delete('/videos', async (req, res) => {
+  VideoController.removeAll(res)
+})
+
+router.delete('/videos/:videoId', async (req, res) => {
+  VideoController.remove(res, req.params.videoId)
+})
+
 export default router
