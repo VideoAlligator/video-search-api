@@ -6,6 +6,7 @@ export interface IVideo extends Document {
   overview?: string
   genres?: [string]
   keywords?: [string]
+  posterUrl: string
 }
 
 const VideoSchema: Schema = new Schema({
@@ -14,6 +15,7 @@ const VideoSchema: Schema = new Schema({
   overview: { type: String },
   genres: { type: [String] },
   keywords: { type: [String] },
+  posterUrl: { type: String, required: true },
 })
 
 // Export the model and return your IVideo interface
