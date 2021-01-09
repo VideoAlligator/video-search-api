@@ -3,7 +3,14 @@ import { CreateQuery } from 'mongoose'
 
 async function create(
   res,
-  { title, duration, keywords, overview, genres }: CreateQuery<IVideo>
+  {
+    title,
+    duration,
+    keywords,
+    overview,
+    genres,
+    posterUrl,
+  }: CreateQuery<IVideo>
 ): Promise<IVideo> {
   return Video.create({
     title,
@@ -11,6 +18,7 @@ async function create(
     keywords,
     overview,
     genres,
+    posterUrl,
   })
     .then((data: IVideo) => res.status(201).send(data))
     .catch((error: Error) => res.status(400).send(error))
