@@ -1,5 +1,10 @@
 import mongoose, { Schema, Document } from 'mongoose'
 
+interface VideoDetail {
+  keyword: string
+  timestamp: string
+}
+
 export interface IVideo extends Document {
   title: string
   duration: number
@@ -7,7 +12,13 @@ export interface IVideo extends Document {
   genres?: [string]
   keywords?: [string]
   posterUrl: string
+  details?: [VideoDetail]
 }
+
+const videoDetailSchema = new Schema({
+  keyword: { type: String, required: true },
+  timestamp: { type: String, required: true },
+})
 
 const VideoSchema: Schema = new Schema({
   title: { type: String, required: true },
@@ -16,6 +27,7 @@ const VideoSchema: Schema = new Schema({
   genres: { type: [String] },
   keywords: { type: [String] },
   posterUrl: { type: String, required: true },
+  details: { type: [videoDetailSchema] },
 })
 
 // Export the model and return your IVideo interface

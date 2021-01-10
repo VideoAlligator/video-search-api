@@ -10,6 +10,7 @@ async function create(
     overview,
     genres,
     posterUrl,
+    details,
   }: CreateQuery<IVideo>
 ): Promise<IVideo> {
   return Video.create({
@@ -19,6 +20,7 @@ async function create(
     overview,
     genres,
     posterUrl,
+    details,
   })
     .then((data: IVideo) => res.status(201).send(data))
     .catch((error: Error) => res.status(400).send(error))
