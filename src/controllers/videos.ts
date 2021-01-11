@@ -26,12 +26,6 @@ async function create(
     .catch((error: Error) => res.status(400).send(error))
 }
 
-async function list(res): Promise<IVideo[]> {
-  return Video.find()
-    .then((data: IVideo[]) => res.status(201).send(data))
-    .catch((error: Error) => res.status(400).send(error))
-}
-
 async function retrieve(res, id): Promise<IVideo> {
   return Video.findById(id)
     .then((data: IVideo) => res.status(201).send(data))
@@ -54,10 +48,26 @@ async function remove(res, id): Promise<IVideo[]> {
     .catch((error: Error) => res.status(400).send(error))
 }
 
+async function query(req, res): Promise<IVideo[]> {
+  const { title, keyword } = req.query
+
+  let query = {}
+  if (title) {
+    query['title'] = title
+  }
+  if (keyword) {
+    query['keywords'] = keyword
+  }
+
+  return Video.find(query)
+    .then((data: IVideo[]) => res.status(201).send(data))
+    .catch((error: Error) => res.status(400).send(error))
+}
+
 export default {
   create,
-  list,
   retrieve,
   remove,
   removeAll,
+  query,
 }
