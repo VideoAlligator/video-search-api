@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import Joi from '@hapi/joi'
+import Joi from 'joi'
 
 import VideoController from '../controllers/videos'
 import { validateBody, validateQuery } from '../middleware/validate'
