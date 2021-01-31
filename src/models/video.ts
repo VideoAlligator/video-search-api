@@ -22,20 +22,18 @@ const videoDetailSchema = new Schema({
 })
 
 const VideoSchema: Schema = new Schema({
-  title: { type: String, required: true },
+  title: { type: String, required: true, unique: true },
   duration: { type: Number, required: true },
   overview: { type: String },
   genres: { type: [String] },
   keywords: { type: [String] },
-  posterUrl: { type: String, required: true },
+  posterUrl: { type: String, required: true, unique: true },
   details: { type: [videoDetailSchema] },
 })
 
 const Video = mongoose.model<IVideo>('Video', VideoSchema)
 
-Video.insertMany(videos, (err) => {
-  console.log(err)
-})
+Video.insertMany(videos, function (error, docs) {})
 
 // Export the model and return your IVideo interface
 export default Video
