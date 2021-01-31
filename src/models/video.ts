@@ -1,4 +1,5 @@
 import mongoose, { Schema, Document } from 'mongoose'
+import videos from './mockData/videos.json'
 
 interface VideoDetail {
   keyword: string
@@ -30,5 +31,11 @@ const VideoSchema: Schema = new Schema({
   details: { type: [videoDetailSchema] },
 })
 
+const Video = mongoose.model<IVideo>('Video', VideoSchema)
+
+Video.insertMany(videos, (err) => {
+  console.log(err)
+})
+
 // Export the model and return your IVideo interface
-export default mongoose.model<IVideo>('Video', VideoSchema)
+export default Video
