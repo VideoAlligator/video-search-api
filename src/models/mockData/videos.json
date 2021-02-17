@@ -3,7 +3,7 @@
     "title": "Toy Story",
     "duration": 10000,
     "genres": ["Animation", "Comedy", "Family"],
-    "keywords": ["Cat", "Dog"],
+    "keywords": ["Cat", "Dog", "People"],
     "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
     "posterUrl": "https://image.tmdb.org/t/p/original/7G9915LfUQ2lVfwMEEhDsn3kT4B.jpg",
     "details": [
@@ -14,6 +14,10 @@
       {
         "keyword": "Dog",
         "timestamp": "3 - 5"
+      },
+      {
+        "keyword": "People",
+        "timestamp": "6 - 14"
       }
     ]
   },
@@ -21,17 +25,107 @@
     "title": "Jumanji",
     "duration": 20000,
     "genres": ["Adventure", "Fantasy", "Family"],
-    "keywords": ["Cat", "People"],
+    "keywords": ["People"],
     "overview": "When siblings Judy and Peter discover an enchanted board game that opens the door to a magical world, they unwittingly invite Alan -- an adult who's been trapped inside the game for 26 years -- into their living room. Alan's only hope for freedom is to finish the game, which proves risky as all three find themselves running from giant rhinoceroses, evil monkeys and other terrifying creatures.",
     "posterUrl": "https://image.tmdb.org/t/p/original/vzmL6fP7aPKNKPRTFnZmiUfciyV.jpg",
     "details": [
       {
-        "keyword": "Cat",
-        "timestamp": "9 - 10"
-      },
+        "keyword": "People",
+        "timestamp": "0 - 9"
+      }
+    ]
+  },
+  {
+    "title": "Grumpy Old Men Collection",
+    "duration": 30000,
+    "genres": ["Romance", "Comedy"],
+    "keywords": ["People"],
+    "overview": "A family wedding reignites the ancient feud between next-door neighbors and fishing buddies John and Max. Meanwhile, a sultry Italian divorce opens a restaurant at the local bait shop, alarming the locals who worry she'll scare the fish away. But she's less interested in seafood than she is in cooking up a hot time with Max.",
+    "posterUrl": "https://image.tmdb.org/t/p/original/nLvUdqgPgm3F85NMCii9gVFUcet.jpg",
+    "details": [
       {
         "keyword": "People",
         "timestamp": "0 - 9"
+      }
+    ]
+  },
+  {
+    "title": "20,000 Leagues Under the Sea",
+    "duration": 30000,
+    "genres": ["Adventure", "Drama", "Science Fiction"],
+    "keywords": ["People", "Sea"],
+    "overview": "A family wedding reignites the ancient feud between next-door neighbors and fishing buddies John and Max. Meanwhile, a sultry Italian divorce opens a restaurant at the local bait shop, alarming the locals who worry she'll scare the fish away. But she's less interested in seafood than she is in cooking up a hot time with Max.",
+    "posterUrl": "https://image.tmdb.org/t/p/original/pdi0lk5a0Yaq2HAk5v7SAj8oxT7.jpg",
+    "details": [
+      {
+        "keyword": "People",
+        "timestamp": "3 - 11"
+      },
+      {
+        "keyword": "Sea",
+        "timestamp": "2 - 5"
+      }
+    ]
+  },
+  {
+    "title": "The Old Man and the Sea",
+    "duration": 30000,
+    "genres": ["Adventure", "Drama"],
+    "keywords": ["People", "Sea"],
+    "overview": "Based on one of Hemingway's most famous works, it centers upon Santiago, an aging, down on his luck Cuban fisherman. After catching nothing for nearly 3 months, he hooks a huge Marlin and struggles to land it far out in the Gulf Stream.",
+    "posterUrl": "https://image.tmdb.org/t/p/original/cZw8zKKwEOUrSNo14Nk91kz82gm.jpg",
+    "details": [
+      {
+        "keyword": "People",
+        "timestamp": "4 - 7"
+      },
+      {
+        "keyword": "Sea",
+        "timestamp": "1 - 10"
+      },
+      {
+        "keyword": "Sea",
+        "timestamp": "15 - 19"
+      }
+    ]
+  },
+  {
+    "title": "Cats & Dogs",
+    "duration": 20000,
+    "genres": ["Comedy", "Family"],
+    "keywords": ["Cat", "Dog"],
+    "overview": "When a professor develops a vaccine that eliminates human allergies to dogs, he unwittingly upsets the fragile balance of power between cats and dogs and touches off an epic battle for pet supremacy. The fur flies as the feline faction, led by Mr. Tinkles, squares off against wide-eyed puppy Lou and his canine cohorts.",
+    "posterUrl": "https://image.tmdb.org/t/p/original/mm56m8wd2BBm94FwlelT2fNl6n1.jpg",
+    "details": [
+      {
+        "keyword": "Cat",
+        "timestamp": "4 - 7"
+      },
+      {
+        "keyword": "Cat",
+        "timestamp": "9 - 17"
+      },
+      {
+        "keyword": "Dog",
+        "timestamp": "1 - 10"
+      },
+      {
+        "keyword": "Dog",
+        "timestamp": "13 - 21"
+      }
+    ]
+  },
+  {
+    "title": "Fritz the Cat",
+    "duration": 20000,
+    "genres": ["Animation", "Comedy", "Drama"],
+    "keywords": ["Cat"],
+    "overview": "A hypocritical swinging college student cat raises hell in a satiric vision of various elements on the 1960's.",
+    "posterUrl": "https://image.tmdb.org/t/p/original/4otzVqrJRbBsVaE7yZnggfSeC0B.jpg",
+    "details": [
+      {
+        "keyword": "Cat",
+        "timestamp": "1 - 20"
       }
     ]
   }
