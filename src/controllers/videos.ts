@@ -6,21 +6,21 @@ async function create(
   {
     title,
     duration,
-    keywords,
     overview,
     genres,
     posterUrl,
-    details,
+    annotations,
+    segments,
   }: CreateQuery<IVideo>
 ): Promise<IVideo> {
   return Video.create({
     title,
     duration,
-    keywords,
     overview,
     genres,
     posterUrl,
-    details,
+    annotations,
+    segments,
   })
     .then((data: IVideo) => res.status(201).send(data))
     .catch((error: Error) => res.status(400).send(error))
@@ -49,18 +49,31 @@ async function remove(res, id): Promise<IVideo[]> {
 }
 
 async function query(req, res): Promise<IVideo[]> {
-  const { title, keyword } = req.query
+  const { keyword } = req.query
 
   let query = {}
-  if (title) {
-    query['title'] = title
-  }
   if (keyword) {
-    query['keywords'] = keyword
+    query['annotations.keyword'] = keyword
   }
 
   return Video.find(query)
-    .then((data: IVideo[]) => res.status(201).send(data))
+    .then((data: IVideo[]) => {
+      if (keyword) {
+        const keywordScores = data.reduce((acc, val) => {
+          const relatedAnnotations = val['annotations'].filter(
+            (annotation) => annotation.keyword === keyword
+          )
+          acc.push({ score: relatedAnnotations[0].score, data: val })
+          return acc
+        }, [])
+        // descending order
+        keywordScores.sort((a, b) =>
+          a.score > b.score ? -1 : a.score < b.score ? 1 : 0
+        )
+        return res.status(201).send(keywordScores.map((item) => item.data))
+      }
+      return res.status(201).send(data)
+    })
     .catch((error: Error) => res.status(400).send(error))
 }
 

@@ -1,9 +1,17 @@
 import mongoose, { Schema, Document } from 'mongoose'
 import videos from './mockData/videos.json'
+import { Genres, Keyword } from './constants'
 
-interface VideoDetail {
+interface Annotation {
+  //   image
   keyword: string
-  timestamp: string
+  score: number
+}
+
+interface Segment {
+  keyword: string
+  start: number
+  end: number
 }
 
 export interface IVideo extends Document {
@@ -11,24 +19,30 @@ export interface IVideo extends Document {
   duration: number
   overview?: string
   genres?: [string]
-  keywords?: [string]
   posterUrl: string
-  details?: [VideoDetail]
+  annotations: [Annotation]
+  segments: [Segment]
 }
 
-const videoDetailSchema = new Schema({
-  keyword: { type: String, required: true },
-  timestamp: { type: String, required: true },
+const AnnotationSchema = new Schema({
+  keyword: { type: String, required: true, enum: Object.values(Keyword) },
+  score: { type: Number, required: true },
+})
+
+const SegmentSchema = new Schema({
+  keyword: { type: String, required: true, enum: Object.values(Keyword) },
+  start: { type: Number, required: true },
+  end: { type: Number, required: true },
 })
 
 const VideoSchema: Schema = new Schema({
   title: { type: String, required: true, unique: true },
   duration: { type: Number, required: true },
   overview: { type: String },
-  genres: { type: [String] },
-  keywords: { type: [String] },
+  genres: { type: [String], enum: Object.values(Genres) },
   posterUrl: { type: String, required: true, unique: true },
-  details: { type: [videoDetailSchema] },
+  annotations: { type: [AnnotationSchema] },
+  segments: { type: [SegmentSchema] },
 })
 
 const Video = mongoose.model<IVideo>('Video', VideoSchema)
