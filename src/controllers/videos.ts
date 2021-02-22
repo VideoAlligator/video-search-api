@@ -57,7 +57,23 @@ async function query(req, res): Promise<IVideo[]> {
   }
 
   return Video.find(query)
-    .then((data: IVideo[]) => res.status(201).send(data))
+    .then((data: IVideo[]) => {
+      if (keyword) {
+        const keywordScores = data.reduce((acc, val) => {
+          const relatedAnnotations = val['annotations'].filter(
+            (annotation) => annotation.keyword === keyword
+          )
+          acc.push({ score: relatedAnnotations[0].score, data: val })
+          return acc
+        }, [])
+        // descending order
+        keywordScores.sort((a, b) =>
+          a.score > b.score ? -1 : a.score < b.score ? 1 : 0
+        )
+        return res.status(201).send(keywordScores.map((item) => item.data))
+      }
+      return res.status(201).send(data)
+    })
     .catch((error: Error) => res.status(400).send(error))
 }
 
