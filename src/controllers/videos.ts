@@ -6,21 +6,21 @@ async function create(
   {
     title,
     duration,
-    keywords,
     overview,
     genres,
     posterUrl,
-    details,
+    annotations,
+    segments,
   }: CreateQuery<IVideo>
 ): Promise<IVideo> {
   return Video.create({
     title,
     duration,
-    keywords,
     overview,
     genres,
     posterUrl,
-    details,
+    annotations,
+    segments,
   })
     .then((data: IVideo) => res.status(201).send(data))
     .catch((error: Error) => res.status(400).send(error))

@@ -3,22 +3,33 @@ import Joi from 'joi'
 
 import VideoController from '../controllers/videos'
 import { validateBody, validateQuery } from '../middleware/validate'
+import { Genres, Keyword } from '../models/constants'
 
 const router = Router()
 
-const VIDEO_DETAIL = Joi.object().keys({
-  keyword: Joi.string().required(),
-  timestamp: Joi.string().required(),
+const ANNOTATION_SCHEMA = Joi.object().keys({
+  keyword: Joi.string()
+    .valid(...Object.values(Keyword))
+    .required(),
+  score: Joi.number().required(),
+})
+
+const SEGMENT_SCHEMA = Joi.object().keys({
+  keyword: Joi.string()
+    .valid(...Object.values(Keyword))
+    .required(),
+  start: Joi.number().required(),
+  end: Joi.number().required(),
 })
 
 const VIDEO_SCHEMA = Joi.object({
   title: Joi.string().required(),
   duration: Joi.number().required(),
   overview: Joi.string(),
-  genres: Joi.array().items(Joi.string()),
-  keywords: Joi.array().items(Joi.string()),
+  genres: Joi.array().items(Joi.string().valid(...Object.values(Genres))),
   posterUrl: Joi.string().required(),
-  details: Joi.array().items(VIDEO_DETAIL),
+  annotations: Joi.array().items(ANNOTATION_SCHEMA).required(),
+  segments: Joi.array().items(SEGMENT_SCHEMA).required(),
 })
 
 const SEARCH_VIDEO_SCHEMA = Joi.object({
@@ -33,7 +44,7 @@ router.post('/videos', validateBody(VIDEO_SCHEMA), async (req, res) => {
 // including list
 router.get('/videos', validateQuery(SEARCH_VIDEO_SCHEMA), VideoController.query)
 
-router.get('/videos/:videoId', validateBody(VIDEO_SCHEMA), async (req, res) => {
+router.get('/videos/:videoId', async (req, res) => {
   VideoController.retrieve(res, req.params.videoId)
 })
 
