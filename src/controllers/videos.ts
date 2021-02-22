@@ -49,17 +49,9 @@ async function remove(res, id): Promise<IVideo[]> {
 }
 
 async function query(req, res): Promise<IVideo[]> {
-  const { title, keyword } = req.query
+  const { keyword } = req.query
 
-  let query = {}
-  if (title) {
-    query['title'] = title
-  }
-  if (keyword) {
-    query['keywords'] = keyword
-  }
-
-  return Video.find(query)
+  return Video.find({ 'annotations.keyword': keyword })
     .then((data: IVideo[]) => res.status(201).send(data))
     .catch((error: Error) => res.status(400).send(error))
 }
