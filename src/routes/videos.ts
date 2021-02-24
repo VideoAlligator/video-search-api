@@ -24,10 +24,11 @@ const SEGMENT_SCHEMA = Joi.object().keys({
 
 const VIDEO_SCHEMA = Joi.object({
   title: Joi.string().required(),
-  duration: Joi.number().required(),
+  runtime: Joi.number().required(),
   overview: Joi.string(),
   genres: Joi.array().items(Joi.string().valid(...Object.values(Genres))),
   posterUrl: Joi.string().required(),
+  releaseDate: Joi.string(),
   annotations: Joi.array().items(ANNOTATION_SCHEMA).required(),
   segments: Joi.array().items(SEGMENT_SCHEMA).required(),
 })

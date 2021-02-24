@@ -16,10 +16,11 @@ interface Segment {
 
 export interface IVideo extends Document {
   title: string
-  duration: number
+  runtime: number
   overview?: string
   genres?: [string]
   posterUrl: string
+  releaseDate: string
   annotations: [Annotation]
   segments: [Segment]
 }
@@ -37,10 +38,11 @@ const SegmentSchema = new Schema({
 
 const VideoSchema: Schema = new Schema({
   title: { type: String, required: true, unique: true },
-  duration: { type: Number, required: true },
+  runtime: { type: Number, required: true },
   overview: { type: String },
   genres: { type: [String], enum: Object.values(Genres) },
   posterUrl: { type: String, required: true, unique: true },
+  releaseDate: { type: String },
   annotations: { type: [AnnotationSchema] },
   segments: { type: [SegmentSchema] },
 })

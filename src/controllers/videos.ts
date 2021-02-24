@@ -5,20 +5,22 @@ async function create(
   res,
   {
     title,
-    duration,
+    runtime,
     overview,
     genres,
     posterUrl,
+    releaseDate,
     annotations,
     segments,
   }: CreateQuery<IVideo>
 ): Promise<IVideo> {
   return Video.create({
     title,
-    duration,
+    runtime,
     overview,
     genres,
     posterUrl,
+    releaseDate,
     annotations,
     segments,
   })
