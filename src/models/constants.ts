@@ -1,7 +1,8 @@
 export enum Keyword {
   CAT = 'cat',
   DOG = 'dog',
-  PEOPLE = 'people',
+  PERSON = 'person',
+  CAR = 'car',
   GLACIER = 'glacier',
   FOREST = 'forest',
   SEA = 'sea',
@@ -19,4 +20,5 @@ export enum Genres {
   FANTASY = 'Fantasy',
   ROMANCE = 'Romance',
   SCIENCE_FICTION = 'Science Fiction',
+  THRILLER = 'Thriller',
 }

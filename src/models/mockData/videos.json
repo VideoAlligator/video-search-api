@@ -1,10 +1,11 @@
 [
   {
     "title": "Toy Story",
-    "duration": 10000,
+    "runtime": 86,
     "genres": ["Animation", "Comedy", "Family"],
     "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
     "posterUrl": "https://image.tmdb.org/t/p/original/7G9915LfUQ2lVfwMEEhDsn3kT4B.jpg",
+    "releaseDate": "1995-10-30",
     "annotations": [
       {
         "keyword": "dog",
@@ -15,7 +16,7 @@
         "score": 100
       },
       {
-        "keyword": "people",
+        "keyword": "person",
         "score": 200
       }
     ],
@@ -36,7 +37,7 @@
         "end": 12
       },
       {
-        "keyword": "people",
+        "keyword": "person",
         "start": 13,
         "end": 14
       }
@@ -44,19 +45,20 @@
   },
   {
     "title": "Jumanji",
-    "duration": 20000,
+    "runtime": 103,
     "genres": ["Adventure", "Fantasy", "Family"],
     "overview": "When siblings Judy and Peter discover an enchanted board game that opens the door to a magical world, they unwittingly invite Alan -- an adult who's been trapped inside the game for 26 years -- into their living room. Alan's only hope for freedom is to finish the game, which proves risky as all three find themselves running from giant rhinoceroses, evil monkeys and other terrifying creatures.",
     "posterUrl": "https://image.tmdb.org/t/p/original/vzmL6fP7aPKNKPRTFnZmiUfciyV.jpg",
+    "releaseDate": "1995-12-15",
     "annotations": [
       {
-        "keyword": "people",
+        "keyword": "person",
         "score": 150
       }
     ],
     "segments": [
       {
-        "keyword": "people",
+        "keyword": "person",
         "start": 0,
         "end": 10
       }
@@ -64,19 +66,20 @@
   },
   {
     "title": "Grumpy Old Men Collection",
-    "duration": 30000,
+    "runtime": 98,
     "genres": ["Romance", "Comedy"],
     "overview": "A family wedding reignites the ancient feud between next-door neighbors and fishing buddies John and Max. Meanwhile, a sultry Italian divorce opens a restaurant at the local bait shop, alarming the locals who worry she'll scare the fish away. But she's less interested in seafood than she is in cooking up a hot time with Max.",
     "posterUrl": "https://image.tmdb.org/t/p/original/nLvUdqgPgm3F85NMCii9gVFUcet.jpg",
+    "releaseDate": "1995-12-22",
     "annotations": [
       {
-        "keyword": "people",
+        "keyword": "person",
         "score": 300
       }
     ],
     "segments": [
       {
-        "keyword": "people",
+        "keyword": "person",
         "start": 13,
         "end": 77
       }
@@ -84,13 +87,14 @@
   },
   {
     "title": "20,000 Leagues Under the Sea",
-    "duration": 30000,
+    "runtime": 127,
     "genres": ["Adventure", "Drama", "Science Fiction"],
     "overview": "A family wedding reignites the ancient feud between next-door neighbors and fishing buddies John and Max. Meanwhile, a sultry Italian divorce opens a restaurant at the local bait shop, alarming the locals who worry she'll scare the fish away. But she's less interested in seafood than she is in cooking up a hot time with Max.",
     "posterUrl": "https://image.tmdb.org/t/p/original/pdi0lk5a0Yaq2HAk5v7SAj8oxT7.jpg",
+    "releaseDate": "1954-12-23",
     "annotations": [
       {
-        "keyword": "people",
+        "keyword": "person",
         "score": 220
       },
       {
@@ -100,7 +104,7 @@
     ],
     "segments": [
       {
-        "keyword": "people",
+        "keyword": "person",
         "start": 13,
         "end": 77
       },
@@ -113,13 +117,14 @@
   },
   {
     "title": "The Old Man and the Sea",
-    "duration": 30000,
+    "runtime": 86,
     "genres": ["Adventure", "Drama"],
     "overview": "Based on one of Hemingway's most famous works, it centers upon Santiago, an aging, down on his luck Cuban fisherman. After catching nothing for nearly 3 months, he hooks a huge Marlin and struggles to land it far out in the Gulf Stream.",
     "posterUrl": "https://image.tmdb.org/t/p/original/cZw8zKKwEOUrSNo14Nk91kz82gm.jpg",
+    "releaseDate": "1958-10-07",
     "annotations": [
       {
-        "keyword": "people",
+        "keyword": "person",
         "score": 400
       },
       {
@@ -129,7 +134,7 @@
     ],
     "segments": [
       {
-        "keyword": "people",
+        "keyword": "person",
         "start": 1,
         "end": 100
       },
@@ -142,10 +147,11 @@
   },
   {
     "title": "Cats & Dogs",
-    "duration": 20000,
+    "runtime": 87,
     "genres": ["Comedy", "Family"],
     "overview": "When a professor develops a vaccine that eliminates human allergies to dogs, he unwittingly upsets the fragile balance of power between cats and dogs and touches off an epic battle for pet supremacy. The fur flies as the feline faction, led by Mr. Tinkles, squares off against wide-eyed puppy Lou and his canine cohorts.",
     "posterUrl": "https://image.tmdb.org/t/p/original/mm56m8wd2BBm94FwlelT2fNl6n1.jpg",
+    "releaseDate": "2001-07-04",
     "annotations": [
       {
         "keyword": "cat",
@@ -181,10 +187,11 @@
   },
   {
     "title": "Fritz the Cat",
-    "duration": 20000,
+    "runtime": 78,
     "genres": ["Animation", "Comedy", "Drama"],
     "overview": "A hypocritical swinging college student cat raises hell in a satiric vision of various elements on the 1960's.",
     "posterUrl": "https://image.tmdb.org/t/p/original/4otzVqrJRbBsVaE7yZnggfSeC0B.jpg",
+    "releaseDate": "1972-04-12",
     "annotations": [
       {
         "keyword": "cat",
@@ -196,6 +203,61 @@
         "keyword": "cat",
         "start": 10,
         "end": 34
+      }
+    ]
+  },
+  {
+    "title": "Eye for an Eye",
+    "runtime": 101,
+    "genres": ["Drama", "Thriller"],
+    "overview": "It's fire and brimstone time as grieving mother Karen McCann takes justice into her own hands when a kangaroo court in Los Angeles fails to convict Robert Doob, the monster who raped and murdered her 17-year-old daughter.",
+    "posterUrl": "https://image.tmdb.org/t/p/original/y2lZSdJ1o0VvLegTw3ad6KFtxra.jpg",
+    "releaseDate": "1996-01-12",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 460
+      },
+      {
+        "keyword": "car",
+        "score": 120
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 1,
+        "end": 4
+      },
+      {
+        "keyword": "person",
+        "start": 6,
+        "end": 10
+      },
+      {
+        "keyword": "car",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "keyword": "person",
+        "start": 13,
+        "end": 20
+      },
+      {
+        "keyword": "person",
+        "start": 22,
+        "end": 33
+      },
+      {
+        "keyword": "person",
+        "start": 35,
+        "end": 38
+      },
+      {
+        "keyword": "person",
+        "start": 40,
+        "end": 44
       }
     ]
   }
