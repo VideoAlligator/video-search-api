@@ -20,7 +20,7 @@ app.listen(port, () =>
   console.log(`Application started successfully on port ${port}.`)
 )
 
-const db = 'mongodb://localhost:27017/test'
+const db = process.env.MONGODB_URI
 
 connect({ db })
 app.use(routes)
