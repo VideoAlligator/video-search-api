@@ -17,7 +17,7 @@ app.get('/', (req: Request, res: Response) =>
   res.send('Welcome to the Mongoose & TypeScript example')
 )
 
-const port = process.env.PORT || 8000
+const port = process.env.PORT || 8080
 app.listen(port, () =>
   console.log(`Application started successfully on port ${port}.`)
 )
