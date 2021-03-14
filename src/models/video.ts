@@ -3,7 +3,6 @@ import videos from './mockData/videos.json'
 import { Genres, Keyword } from './constants'
 
 interface Annotation {
-  //   image
   keyword: string
   score: number
 }

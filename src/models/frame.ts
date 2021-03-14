@@ -1,10 +1,16 @@
 import mongoose, { Schema, Document } from 'mongoose'
 
+import { Keyword } from './constants'
+
 export interface IFrame extends Document {
-  img: File
+  videoName: string
+  keyword: string
+  img: { data: Buffer; contentType: string }
 }
 
 const FrameSchema = new Schema({
+  videoName: { type: String, required: true },
+  keyword: { type: String, required: true, enum: Object.values(Keyword) },
   img: { data: Buffer, contentType: String },
 })
 
