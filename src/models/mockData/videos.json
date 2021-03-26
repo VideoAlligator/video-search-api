@@ -117,31 +117,63 @@
   },
   {
     "title": "The Old Man and the Sea",
-    "runtime": 86,
-    "genres": ["Adventure", "Drama"],
-    "overview": "Based on one of Hemingway's most famous works, it centers upon Santiago, an aging, down on his luck Cuban fisherman. After catching nothing for nearly 3 months, he hooks a huge Marlin and struggles to land it far out in the Gulf Stream.",
+    "runtime": 93.0,
+    "genres": ["Action", "Drama", "Foreign", "TV Movie"],
+    "overview": "Based on the novel by Ernest Hemingway. Santiago goes out on his usual fishing trip and makes a huge catch, the biggest of his life. Then a shark attacks and tries to steal his catch.",
     "posterUrl": "https://image.tmdb.org/t/p/original/cZw8zKKwEOUrSNo14Nk91kz82gm.jpg",
-    "releaseDate": "1958-10-07",
+    "releaseDate": "1990-03-25",
     "annotations": [
       {
         "keyword": "person",
-        "score": 400
+        "score": 149.2
       },
       {
-        "keyword": "sea",
-        "score": 400
+        "keyword": "dining table",
+        "score": 77.6
+      },
+      {
+        "keyword": "kite",
+        "score": 80.2
+      },
+      {
+        "keyword": "bear",
+        "score": 86.3
+      },
+      {
+        "keyword": "buildings",
+        "score": 0.5
       }
     ],
     "segments": [
       {
         "keyword": "person",
-        "start": 1,
-        "end": 100
+        "start": 0,
+        "end": 3
       },
       {
-        "keyword": "sea",
-        "start": 1,
-        "end": 100
+        "keyword": "person",
+        "start": 6,
+        "end": 13
+      },
+      {
+        "keyword": "dining table",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "keyword": "kite",
+        "start": 5,
+        "end": 5
+      },
+      {
+        "keyword": "bear",
+        "start": 8,
+        "end": 8
+      },
+      {
+        "keyword": "buildings",
+        "start": 3,
+        "end": 3
       }
     ]
   },
