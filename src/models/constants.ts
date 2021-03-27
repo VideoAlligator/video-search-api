@@ -12,6 +12,18 @@ export enum Keyword {
   DINING_TABLE = 'dining table',
   KITE = 'kite',
   BEAR = 'bear',
+  HORSE = 'horse',
+  ELEPHANT = 'elephant',
+  BIRD = 'bird',
+  BOAT = 'boat',
+  surfboard = 'surfboard',
+  spoon = 'spoon',
+  baseball_bat = 'baseball bat',
+  knife = 'knife',
+  mouse = 'mouse',
+  cow = 'cow',
+  bed = 'bed',
+  apple = 'apple',
 }
 
 export enum Genres {
@@ -20,6 +32,7 @@ export enum Genres {
   ANIMATION = 'Animation',
   COMEDY = 'Comedy',
   DRAMA = 'Drama',
+  DOCUMENTARY = 'Documentary',
   FAMILY = 'Family',
   FANTASY = 'Fantasy',
   FOREIGN = 'Foreign',
