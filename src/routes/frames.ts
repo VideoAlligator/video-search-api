@@ -8,6 +8,7 @@ const router = Router()
 
 const SEARCH_FRAME_SCHEMA = Joi.object({
   videoName: Joi.string(),
+  keyword: Joi.string(),
 })
 
 router.get('/frames/:frameId', async (req, res) => {

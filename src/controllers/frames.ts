@@ -1,11 +1,14 @@
 import Frame, { IFrame } from '../models/frame'
 
 async function query(req, res): Promise<IFrame> {
-  const { videoName } = req.query
+  const { videoName, keyword } = req.query
 
   let query = {}
   if (videoName) {
     query['videoName'] = videoName
+  }
+  if (keyword) {
+    query['keyword'] = keyword
   }
   return Frame.find(query)
     .then((data: IFrame[]) => res.status(201).send(data))
