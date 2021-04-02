@@ -24,6 +24,17 @@ export enum Keyword {
   cow = 'cow',
   bed = 'bed',
   apple = 'apple',
+  tv = 'tv',
+  cell_phone = 'cell phone',
+  airplane = 'airplane',
+  bicycle = 'bicycle',
+  motorcycle = 'motorcycle',
+  truck = 'truck',
+  tie = 'tie',
+  sheep = 'sheep',
+  giraffe = 'giraffe',
+  stop_sign = 'stop sign',
+  fire_hydrant = 'fire hydrant',
 }
 
 export enum Genres {
