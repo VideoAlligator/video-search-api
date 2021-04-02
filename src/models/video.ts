@@ -19,6 +19,7 @@ export interface IVideo extends Document {
   overview?: string
   genres?: [string]
   posterUrl: string
+  trailerUrl: string
   releaseDate: string
   annotations: [Annotation]
   segments: [Segment]
@@ -41,6 +42,7 @@ const VideoSchema: Schema = new Schema({
   overview: { type: String },
   genres: { type: [String], enum: Object.values(Genres) },
   posterUrl: { type: String, required: true, unique: true },
+  trailerUrl: { type: String },
   releaseDate: { type: String },
   annotations: { type: [AnnotationSchema] },
   segments: { type: [SegmentSchema] },
@@ -48,7 +50,9 @@ const VideoSchema: Schema = new Schema({
 
 const Video = mongoose.model<IVideo>('Video', VideoSchema)
 
-Video.insertMany(videos, function (error, docs) {})
+Video.deleteMany({}).then(() => {
+  Video.insertMany(videos, function (error, docs) {})
+})
 
 // Export the model and return your IVideo interface
 export default Video

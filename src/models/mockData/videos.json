@@ -17,7 +17,7 @@
       },
       {
         "keyword": "person",
-        "score": 200
+        "score": 100
       }
     ],
     "segments": [
@@ -74,7 +74,7 @@
     "annotations": [
       {
         "keyword": "person",
-        "score": 300
+        "score": 130
       }
     ],
     "segments": [
@@ -95,7 +95,7 @@
     "annotations": [
       {
         "keyword": "person",
-        "score": 220
+        "score": 120
       },
       {
         "keyword": "sea",
@@ -117,31 +117,63 @@
   },
   {
     "title": "The Old Man and the Sea",
-    "runtime": 86,
-    "genres": ["Adventure", "Drama"],
-    "overview": "Based on one of Hemingway's most famous works, it centers upon Santiago, an aging, down on his luck Cuban fisherman. After catching nothing for nearly 3 months, he hooks a huge Marlin and struggles to land it far out in the Gulf Stream.",
+    "runtime": 93.0,
+    "genres": ["Action", "Drama", "Foreign", "TV Movie"],
+    "overview": "Based on the novel by Ernest Hemingway. Santiago goes out on his usual fishing trip and makes a huge catch, the biggest of his life. Then a shark attacks and tries to steal his catch.",
     "posterUrl": "https://image.tmdb.org/t/p/original/cZw8zKKwEOUrSNo14Nk91kz82gm.jpg",
-    "releaseDate": "1958-10-07",
+    "releaseDate": "1990-03-25",
     "annotations": [
       {
         "keyword": "person",
-        "score": 400
+        "score": 149.2
       },
       {
-        "keyword": "sea",
-        "score": 400
+        "keyword": "dining table",
+        "score": 77.6
+      },
+      {
+        "keyword": "kite",
+        "score": 80.2
+      },
+      {
+        "keyword": "bear",
+        "score": 86.3
+      },
+      {
+        "keyword": "buildings",
+        "score": 0.5
       }
     ],
     "segments": [
       {
         "keyword": "person",
-        "start": 1,
-        "end": 100
+        "start": 0,
+        "end": 3
       },
       {
-        "keyword": "sea",
-        "start": 1,
-        "end": 100
+        "keyword": "person",
+        "start": 6,
+        "end": 13
+      },
+      {
+        "keyword": "dining table",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "keyword": "kite",
+        "start": 5,
+        "end": 5
+      },
+      {
+        "keyword": "bear",
+        "start": 8,
+        "end": 8
+      },
+      {
+        "keyword": "buildings",
+        "start": 3,
+        "end": 3
       }
     ]
   },
@@ -155,11 +187,11 @@
     "annotations": [
       {
         "keyword": "cat",
-        "score": 400
+        "score": 200
       },
       {
         "keyword": "dog",
-        "score": 400
+        "score": 200
       }
     ],
     "segments": [
@@ -216,7 +248,7 @@
     "annotations": [
       {
         "keyword": "person",
-        "score": 460
+        "score": 220
       },
       {
         "keyword": "car",
@@ -258,6 +290,955 @@
         "keyword": "person",
         "start": 40,
         "end": 44
+      }
+    ]
+  },
+  {
+    "title": "The Whale",
+    "runtime": 89.0,
+    "genres": ["Documentary"],
+    "overview": "THE WHALE tells the true story of a young, wild killer whale - an orca - nicknamed Luna, who lost contact with his family on the coast of British Columbia and turned up alone in a narrow stretch of sea between mountains, a place called Nootka Sound.",
+    "posterUrl": "https://xl.movieposterdb.com/11_09/2011/1708537/xl_1708537_1a1c8d82.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=zrrVDQEz5L0",
+    "releaseDate": "2011-09-09",
+    "annotations": [
+      {
+        "keyword": "cat",
+        "score": 246.7
+      },
+      {
+        "keyword": "horse",
+        "score": 204.4
+      },
+      {
+        "keyword": "elephant",
+        "score": 241.6
+      },
+      {
+        "keyword": "person",
+        "score": 210.3
+      },
+      {
+        "keyword": "bird",
+        "score": 128.7
+      },
+      {
+        "keyword": "dog",
+        "score": 281.7
+      },
+      {
+        "keyword": "boat",
+        "score": 180.8
+      },
+      {
+        "keyword": "surfboard",
+        "score": 179.2
+      },
+      {
+        "keyword": "car",
+        "score": 253.1
+      },
+      {
+        "keyword": "spoon",
+        "score": 285.0
+      },
+      {
+        "keyword": "baseball bat",
+        "score": 199.0
+      },
+      {
+        "keyword": "knife",
+        "score": 174.3
+      },
+      {
+        "keyword": "mouse",
+        "score": 253.8
+      },
+      {
+        "keyword": "cow",
+        "score": 20.3
+      },
+      {
+        "keyword": "bed",
+        "score": 320.6
+      },
+      {
+        "keyword": "apple",
+        "score": 231.5
+      },
+      {
+        "keyword": "buildings",
+        "score": 8.0
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "horse",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "keyword": "horse",
+        "start": 37,
+        "end": 38
+      },
+      {
+        "keyword": "horse",
+        "start": 133,
+        "end": 133
+      },
+      {
+        "keyword": "elephant",
+        "start": 9,
+        "end": 9
+      },
+      {
+        "keyword": "elephant",
+        "start": 11,
+        "end": 11
+      },
+      {
+        "keyword": "person",
+        "start": 9,
+        "end": 24
+      },
+      {
+        "keyword": "person",
+        "start": 26,
+        "end": 33
+      },
+      {
+        "keyword": "person",
+        "start": 35,
+        "end": 40
+      },
+      {
+        "keyword": "person",
+        "start": 44,
+        "end": 47
+      },
+      {
+        "keyword": "person",
+        "start": 49,
+        "end": 52
+      },
+      {
+        "keyword": "person",
+        "start": 58,
+        "end": 64
+      },
+      {
+        "keyword": "person",
+        "start": 70,
+        "end": 74
+      },
+      {
+        "keyword": "person",
+        "start": 77,
+        "end": 81
+      },
+      {
+        "keyword": "person",
+        "start": 85,
+        "end": 92
+      },
+      {
+        "keyword": "person",
+        "start": 94,
+        "end": 95
+      },
+      {
+        "keyword": "person",
+        "start": 98,
+        "end": 112
+      },
+      {
+        "keyword": "person",
+        "start": 121,
+        "end": 123
+      },
+      {
+        "keyword": "person",
+        "start": 126,
+        "end": 127
+      },
+      {
+        "keyword": "person",
+        "start": 129,
+        "end": 129
+      },
+      {
+        "keyword": "person",
+        "start": 133,
+        "end": 133
+      },
+      {
+        "keyword": "person",
+        "start": 135,
+        "end": 143
+      },
+      {
+        "keyword": "person",
+        "start": 146,
+        "end": 149
+      },
+      {
+        "keyword": "bird",
+        "start": 10,
+        "end": 10
+      },
+      {
+        "keyword": "bird",
+        "start": 44,
+        "end": 47
+      },
+      {
+        "keyword": "bird",
+        "start": 58,
+        "end": 58
+      },
+      {
+        "keyword": "bird",
+        "start": 74,
+        "end": 77
+      },
+      {
+        "keyword": "bird",
+        "start": 130,
+        "end": 131
+      },
+      {
+        "keyword": "bird",
+        "start": 134,
+        "end": 135
+      },
+      {
+        "keyword": "dog",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "keyword": "dog",
+        "start": 69,
+        "end": 70
+      },
+      {
+        "keyword": "dog",
+        "start": 124,
+        "end": 124
+      },
+      {
+        "keyword": "boat",
+        "start": 18,
+        "end": 18
+      },
+      {
+        "keyword": "boat",
+        "start": 22,
+        "end": 22
+      },
+      {
+        "keyword": "boat",
+        "start": 31,
+        "end": 32
+      },
+      {
+        "keyword": "boat",
+        "start": 37,
+        "end": 39
+      },
+      {
+        "keyword": "boat",
+        "start": 87,
+        "end": 96
+      },
+      {
+        "keyword": "boat",
+        "start": 106,
+        "end": 107
+      },
+      {
+        "keyword": "surfboard",
+        "start": 20,
+        "end": 20
+      },
+      {
+        "keyword": "surfboard",
+        "start": 33,
+        "end": 33
+      },
+      {
+        "keyword": "car",
+        "start": 21,
+        "end": 21
+      },
+      {
+        "keyword": "car",
+        "start": 33,
+        "end": 33
+      },
+      {
+        "keyword": "car",
+        "start": 35,
+        "end": 35
+      },
+      {
+        "keyword": "spoon",
+        "start": 24,
+        "end": 24
+      },
+      {
+        "keyword": "baseball bat",
+        "start": 24,
+        "end": 25
+      },
+      {
+        "keyword": "knife",
+        "start": 24,
+        "end": 24
+      },
+      {
+        "keyword": "mouse",
+        "start": 33,
+        "end": 35
+      },
+      {
+        "keyword": "cow",
+        "start": 38,
+        "end": 38
+      },
+      {
+        "keyword": "bed",
+        "start": 118,
+        "end": 119
+      },
+      {
+        "keyword": "cat",
+        "start": 130,
+        "end": 131
+      },
+      {
+        "keyword": "apple",
+        "start": 137,
+        "end": 138
+      },
+      {
+        "keyword": "buildings",
+        "start": 114,
+        "end": 117
+      }
+    ]
+  },
+  {
+    "title": "Goodbye World",
+    "runtime": 101.0,
+    "genres": ["Drama", "Comedy"],
+    "overview": "When a mysterious cyber-attack cripples civilization, a group of old college friends and lovers retreat to a remote country cabin, where they must cope with an uncertain future while navigating the minefield of their shared past.",
+    "posterUrl": "https://xl.movieposterdb.com/14_02/2013/2352802/xl_2352802_4fceaec3.jpg",
+    "releaseDate": "2013-06-15",
+    "trailerUrl": "https://www.youtube.com/watch?v=VlULt_4Oz8w",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 541.5
+      },
+      {
+        "keyword": "tv",
+        "score": 399.9
+      },
+      {
+        "keyword": "cell phone",
+        "score": 491.1
+      },
+      {
+        "keyword": "airplane",
+        "score": 124.2
+      },
+      {
+        "keyword": "motorcycle",
+        "score": 488.5
+      },
+      {
+        "keyword": "dining table",
+        "score": 570.1
+      },
+      {
+        "keyword": "car",
+        "score": 539.5
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 1,
+        "end": 3
+      },
+      {
+        "keyword": "person",
+        "start": 8,
+        "end": 13
+      },
+      {
+        "keyword": "person",
+        "start": 15,
+        "end": 20
+      },
+      {
+        "keyword": "person",
+        "start": 23,
+        "end": 26
+      },
+      {
+        "keyword": "person",
+        "start": 30,
+        "end": 36
+      },
+      {
+        "keyword": "person",
+        "start": 38,
+        "end": 41
+      },
+      {
+        "keyword": "person",
+        "start": 45,
+        "end": 45
+      },
+      {
+        "keyword": "person",
+        "start": 47,
+        "end": 51
+      },
+      {
+        "keyword": "person",
+        "start": 55,
+        "end": 71
+      },
+      {
+        "keyword": "person",
+        "start": 73,
+        "end": 83
+      },
+      {
+        "keyword": "person",
+        "start": 85,
+        "end": 93
+      },
+      {
+        "keyword": "tv",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "keyword": "tv",
+        "start": 13,
+        "end": 15
+      },
+      {
+        "keyword": "tv",
+        "start": 60,
+        "end": 60
+      },
+      {
+        "keyword": "cell phone",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "keyword": "cell phone",
+        "start": 10,
+        "end": 10
+      },
+      {
+        "keyword": "cell phone",
+        "start": 20,
+        "end": 23
+      },
+      {
+        "keyword": "airplane",
+        "start": 36,
+        "end": 37
+      },
+      {
+        "keyword": "motorcycle",
+        "start": 38,
+        "end": 38
+      },
+      {
+        "keyword": "dining table",
+        "start": 45,
+        "end": 47
+      },
+      {
+        "keyword": "car",
+        "start": 84,
+        "end": 87
+      }
+    ]
+  },
+  {
+    "title": "Maleficent",
+    "runtime": 97,
+    "genres": ["Fantasy", "Adventure", "Action", "Family", "Romance"],
+    "overview": "The untold story of Disney's most iconic villain from the 1959 classic 'Sleeping Beauty'. A beautiful, pure-hearted young woman, Maleficent has an idyllic life growing up in a peaceable forest kingdom, until one day when an invading army threatens the harmony of the land.  Maleficent rises to be the land's fiercest protector, but she ultimately suffers a ruthless betrayal \u2013 an act that begins to turn her heart into stone. Bent on revenge, Maleficent faces an epic battle with the invading King's successor and, as a result, places a curse upon his newborn infant Aurora. As the child grows, Maleficent realizes that Aurora holds the key to peace in the kingdom - and to Maleficent's true happiness as well.",
+    "posterUrl": "https://xl.movieposterdb.com/14_03/2014/1587310/xl_1587310_3c3dbcd6.jpg",
+    "releaseDate": "2014-05-28",
+    "trailerUrl": "https://www.youtube.com/watch?v=_pgmFAOgm5E",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 535.3
+      },
+      {
+        "keyword": "dog",
+        "score": 674.7
+      },
+      {
+        "keyword": "tie",
+        "score": 138.6
+      },
+      {
+        "keyword": "bear",
+        "score": 541.2
+      },
+      {
+        "keyword": "motorcycle",
+        "score": 97.9
+      },
+      {
+        "keyword": "sheep",
+        "score": 46.6
+      },
+      {
+        "keyword": "horse",
+        "score": 849.3
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 6,
+        "end": 14
+      },
+      {
+        "keyword": "person",
+        "start": 19,
+        "end": 19
+      },
+      {
+        "keyword": "person",
+        "start": 23,
+        "end": 23
+      },
+      {
+        "keyword": "person",
+        "start": 34,
+        "end": 36
+      },
+      {
+        "keyword": "person",
+        "start": 38,
+        "end": 40
+      },
+      {
+        "keyword": "person",
+        "start": 42,
+        "end": 45
+      },
+      {
+        "keyword": "person",
+        "start": 50,
+        "end": 53
+      },
+      {
+        "keyword": "person",
+        "start": 55,
+        "end": 55
+      },
+      {
+        "keyword": "person",
+        "start": 62,
+        "end": 67
+      },
+      {
+        "keyword": "person",
+        "start": 70,
+        "end": 74
+      },
+      {
+        "keyword": "person",
+        "start": 76,
+        "end": 85
+      },
+      {
+        "keyword": "dog",
+        "start": 18,
+        "end": 19
+      },
+      {
+        "keyword": "tie",
+        "start": 23,
+        "end": 23
+      },
+      {
+        "keyword": "bear",
+        "start": 35,
+        "end": 35
+      },
+      {
+        "keyword": "bear",
+        "start": 56,
+        "end": 57
+      },
+      {
+        "keyword": "motorcycle",
+        "start": 46,
+        "end": 46
+      },
+      {
+        "keyword": "sheep",
+        "start": 48,
+        "end": 49
+      },
+      {
+        "keyword": "horse",
+        "start": 69,
+        "end": 69
+      }
+    ]
+  },
+  {
+    "title": "Takedown: The DNA of GSP",
+    "runtime": 90.0,
+    "genres": ["Documentary"],
+    "overview": "A look at the life and career of Ultimate Fighting Champion's welterweight world champ Georges St-Pierre, also known as \"GSP\".",
+    "posterUrl": "https://xl.movieposterdb.com/14_01/2013/2626102/xl_2626102_12ddf1fe.jpg",
+    "releaseDate": "2014-02-20",
+    "trailerUrl": "https://www.youtube.com/watch?v=O85Wh8SBkfY",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 532.8
+      },
+      {
+        "keyword": "bear",
+        "score": 471.1
+      },
+      {
+        "keyword": "cat",
+        "score": 1010.8
+      },
+      {
+        "keyword": "dog",
+        "score": 592.6
+      },
+      {
+        "keyword": "sheep",
+        "score": 565.1
+      },
+      {
+        "keyword": "cow",
+        "score": 684.0
+      },
+      {
+        "keyword": "horse",
+        "score": 333.9
+      },
+      {
+        "keyword": "giraffe",
+        "score": 817.9
+      },
+      {
+        "keyword": "elephant",
+        "score": 302.5
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 4,
+        "end": 8
+      },
+      {
+        "keyword": "person",
+        "start": 11,
+        "end": 19
+      },
+      {
+        "keyword": "person",
+        "start": 21,
+        "end": 31
+      },
+      {
+        "keyword": "person",
+        "start": 33,
+        "end": 50
+      },
+      {
+        "keyword": "person",
+        "start": 52,
+        "end": 62
+      },
+      {
+        "keyword": "person",
+        "start": 66,
+        "end": 69
+      },
+      {
+        "keyword": "bear",
+        "start": 9,
+        "end": 9
+      },
+      {
+        "keyword": "bear",
+        "start": 63,
+        "end": 63
+      },
+      {
+        "keyword": "cat",
+        "start": 9,
+        "end": 9
+      },
+      {
+        "keyword": "dog",
+        "start": 9,
+        "end": 9
+      },
+      {
+        "keyword": "dog",
+        "start": 66,
+        "end": 67
+      },
+      {
+        "keyword": "sheep",
+        "start": 46,
+        "end": 47
+      },
+      {
+        "keyword": "cow",
+        "start": 47,
+        "end": 47
+      },
+      {
+        "keyword": "horse",
+        "start": 61,
+        "end": 61
+      },
+      {
+        "keyword": "giraffe",
+        "start": 63,
+        "end": 63
+      },
+      {
+        "keyword": "elephant",
+        "start": 63,
+        "end": 64
+      }
+    ]
+  },
+  {
+    "title": "Marius",
+    "runtime": 93,
+    "genres": ["Drama"],
+    "overview": "\"Marius\" takes place in Marseilles' Old Port, at the La Marine Bar, owned by C\u00e9sar and his son Marius. Marius' biggest dream is to embark on one of the boats passing by his dad's bar and to set off to a faraway land. Fanny, a young and pretty seafood peddler, has secretly been in love with Marius since her childhood; Marius, never admitting it, has always loved Fanny. One day, a sailor drops by La Marine and offers him a job on an exploratory ship. Trying to hold him off and to make him jealous, Fanny confesses his love to him and provokes a fight between Marius and one of C\u00e9sar's old friends, Panisse, a boat merchant, who despite his old age, has been courting Fanny for a while. Torn between the call of the sea and his love for her, Marius abandons his dream to be with Fanny who gives herself to him. As C\u00e9sar and Honorine, Fanny's mother, are getting ready for the wedding, Marius changes his mind, drawn back to the call of the sea.",
+    "posterUrl": "https://xl.movieposterdb.com/13_06/2013/1872102/xl_1872102_af846599.jpg",
+    "releaseDate": "2013-07-09",
+    "trailerUrl": "https://www.youtube.com/watch?v=KCf7gkTdvSk",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 766.0
+      },
+      {
+        "keyword": "stop sign",
+        "score": 499.5
+      },
+      {
+        "keyword": "boat",
+        "score": 240.2
+      },
+      {
+        "keyword": "dining table",
+        "score": 302.6
+      },
+      {
+        "keyword": "airplane",
+        "score": 1092.8
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 0,
+        "end": 20
+      },
+      {
+        "keyword": "person",
+        "start": 23,
+        "end": 28
+      },
+      {
+        "keyword": "person",
+        "start": 31,
+        "end": 37
+      },
+      {
+        "keyword": "person",
+        "start": 39,
+        "end": 56
+      },
+      {
+        "keyword": "person",
+        "start": 58,
+        "end": 69
+      },
+      {
+        "keyword": "person",
+        "start": 71,
+        "end": 76
+      },
+      {
+        "keyword": "person",
+        "start": 79,
+        "end": 80
+      },
+      {
+        "keyword": "person",
+        "start": 82,
+        "end": 87
+      },
+      {
+        "keyword": "person",
+        "start": 90,
+        "end": 91
+      },
+      {
+        "keyword": "person",
+        "start": 93,
+        "end": 98
+      },
+      {
+        "keyword": "person",
+        "start": 101,
+        "end": 102
+      },
+      {
+        "keyword": "person",
+        "start": 104,
+        "end": 104
+      },
+      {
+        "keyword": "stop sign",
+        "start": 21,
+        "end": 21
+      },
+      {
+        "keyword": "boat",
+        "start": 22,
+        "end": 23
+      },
+      {
+        "keyword": "boat",
+        "start": 30,
+        "end": 31
+      },
+      {
+        "keyword": "boat",
+        "start": 89,
+        "end": 90
+      },
+      {
+        "keyword": "dining table",
+        "start": 39,
+        "end": 39
+      },
+      {
+        "keyword": "airplane",
+        "start": 78,
+        "end": 79
+      }
+    ]
+  },
+  {
+    "title": "The Mermaid",
+    "runtime": 93,
+    "genres": ["Comedy", "Science Fiction", "Fantasy", "Romance"],
+    "overview": "A playboy business tycoon, Liu Xuan, purchases the Green Gulf, a wildlife reserve, for a sea reclamation project, and uses sonar technology to get rid of the sea life in the area. Unknown to him, the Green Gulf is the home of merpeople, and the sonar has caused many of them to succumb to illness or die. Xuan's business ventures in the area are threatened when he crosses paths with the mermaid, Shan, who is sent to avenge her people.",
+    "posterUrl": "https://xl.movieposterdb.com/15_12/2016/4701660/xl_4701660_8d257f74.jpg",
+    "releaseDate": "2016-02-08",
+    "trailerUrl": "https://www.youtube.com/watch?v=UvMk7Z0Sp7E",
+    "annotations": [
+      {
+        "keyword": "fire hydrant",
+        "score": 628.0
+      },
+      {
+        "keyword": "boat",
+        "score": 722.8
+      },
+      {
+        "keyword": "person",
+        "score": 556.9
+      },
+      {
+        "keyword": "airplane",
+        "score": 101.8
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "fire hydrant",
+        "start": 13,
+        "end": 13
+      },
+      {
+        "keyword": "boat",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "keyword": "person",
+        "start": 18,
+        "end": 21
+      },
+      {
+        "keyword": "person",
+        "start": 24,
+        "end": 24
+      },
+      {
+        "keyword": "person",
+        "start": 26,
+        "end": 26
+      },
+      {
+        "keyword": "person",
+        "start": 29,
+        "end": 35
+      },
+      {
+        "keyword": "person",
+        "start": 38,
+        "end": 43
+      },
+      {
+        "keyword": "person",
+        "start": 45,
+        "end": 69
+      },
+      {
+        "keyword": "person",
+        "start": 71,
+        "end": 72
+      },
+      {
+        "keyword": "person",
+        "start": 74,
+        "end": 75
+      },
+      {
+        "keyword": "airplane",
+        "start": 70,
+        "end": 71
       }
     ]
   }

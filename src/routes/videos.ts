@@ -28,6 +28,7 @@ const VIDEO_SCHEMA = Joi.object({
   overview: Joi.string(),
   genres: Joi.array().items(Joi.string().valid(...Object.values(Genres))),
   posterUrl: Joi.string().required(),
+  trailerUrl: Joi.string(),
   releaseDate: Joi.string(),
   annotations: Joi.array().items(ANNOTATION_SCHEMA).required(),
   segments: Joi.array().items(SEGMENT_SCHEMA).required(),
