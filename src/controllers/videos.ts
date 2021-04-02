@@ -74,9 +74,9 @@ async function query(req, res): Promise<IVideo[]> {
         keywordScores.sort((a, b) =>
           a.score > b.score ? -1 : a.score < b.score ? 1 : 0
         )
-        return res.status(201).send(keywordScores.map((item) => item.data))
+        return res.status(200).send(keywordScores.map((item) => item.data))
       }
-      return res.status(201).send(data)
+      return res.status(200).send(data)
     })
     .catch((error: Error) => res.status(400).send(error))
 }
