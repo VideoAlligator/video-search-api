@@ -35,6 +35,7 @@ export enum Keyword {
   giraffe = 'giraffe',
   stop_sign = 'stop sign',
   fire_hydrant = 'fire hydrant',
+  umbrella = 'umbrella',
 }
 
 export enum Genres {
@@ -47,6 +48,7 @@ export enum Genres {
   FAMILY = 'Family',
   FANTASY = 'Fantasy',
   FOREIGN = 'Foreign',
+  HORROR = 'Horror',
   ROMANCE = 'Romance',
   SCIENCE_FICTION = 'Science Fiction',
   THRILLER = 'Thriller',
