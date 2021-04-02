@@ -50,7 +50,9 @@ const VideoSchema: Schema = new Schema({
 
 const Video = mongoose.model<IVideo>('Video', VideoSchema)
 
-Video.insertMany(videos, function (error, docs) {})
+Video.deleteMany({}).then(() => {
+  Video.insertMany(videos, function (error, docs) {})
+})
 
 // Export the model and return your IVideo interface
 export default Video

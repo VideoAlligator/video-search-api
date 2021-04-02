@@ -187,11 +187,11 @@
     "annotations": [
       {
         "keyword": "cat",
-        "score": 400
+        "score": 200
       },
       {
         "keyword": "dog",
-        "score": 400
+        "score": 200
       }
     ],
     "segments": [
