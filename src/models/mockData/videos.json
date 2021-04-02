@@ -1,121 +1,5 @@
 [
   {
-    "title": "Toy Story",
-    "runtime": 86,
-    "genres": ["Animation", "Comedy", "Family"],
-    "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
-    "posterUrl": "https://image.tmdb.org/t/p/original/7G9915LfUQ2lVfwMEEhDsn3kT4B.jpg",
-    "releaseDate": "1995-10-30",
-    "annotations": [
-      {
-        "keyword": "dog",
-        "score": 101
-      },
-      {
-        "keyword": "cat",
-        "score": 100
-      },
-      {
-        "keyword": "person",
-        "score": 100
-      }
-    ],
-    "segments": [
-      {
-        "keyword": "dog",
-        "start": 0,
-        "end": 2
-      },
-      {
-        "keyword": "dog",
-        "start": 3,
-        "end": 4
-      },
-      {
-        "keyword": "cat",
-        "start": 10,
-        "end": 12
-      },
-      {
-        "keyword": "person",
-        "start": 13,
-        "end": 14
-      }
-    ]
-  },
-  {
-    "title": "Jumanji",
-    "runtime": 103,
-    "genres": ["Adventure", "Fantasy", "Family"],
-    "overview": "When siblings Judy and Peter discover an enchanted board game that opens the door to a magical world, they unwittingly invite Alan -- an adult who's been trapped inside the game for 26 years -- into their living room. Alan's only hope for freedom is to finish the game, which proves risky as all three find themselves running from giant rhinoceroses, evil monkeys and other terrifying creatures.",
-    "posterUrl": "https://image.tmdb.org/t/p/original/vzmL6fP7aPKNKPRTFnZmiUfciyV.jpg",
-    "releaseDate": "1995-12-15",
-    "annotations": [
-      {
-        "keyword": "person",
-        "score": 150
-      }
-    ],
-    "segments": [
-      {
-        "keyword": "person",
-        "start": 0,
-        "end": 10
-      }
-    ]
-  },
-  {
-    "title": "Grumpy Old Men Collection",
-    "runtime": 98,
-    "genres": ["Romance", "Comedy"],
-    "overview": "A family wedding reignites the ancient feud between next-door neighbors and fishing buddies John and Max. Meanwhile, a sultry Italian divorce opens a restaurant at the local bait shop, alarming the locals who worry she'll scare the fish away. But she's less interested in seafood than she is in cooking up a hot time with Max.",
-    "posterUrl": "https://image.tmdb.org/t/p/original/nLvUdqgPgm3F85NMCii9gVFUcet.jpg",
-    "releaseDate": "1995-12-22",
-    "annotations": [
-      {
-        "keyword": "person",
-        "score": 130
-      }
-    ],
-    "segments": [
-      {
-        "keyword": "person",
-        "start": 13,
-        "end": 77
-      }
-    ]
-  },
-  {
-    "title": "20,000 Leagues Under the Sea",
-    "runtime": 127,
-    "genres": ["Adventure", "Drama", "Science Fiction"],
-    "overview": "A family wedding reignites the ancient feud between next-door neighbors and fishing buddies John and Max. Meanwhile, a sultry Italian divorce opens a restaurant at the local bait shop, alarming the locals who worry she'll scare the fish away. But she's less interested in seafood than she is in cooking up a hot time with Max.",
-    "posterUrl": "https://image.tmdb.org/t/p/original/pdi0lk5a0Yaq2HAk5v7SAj8oxT7.jpg",
-    "releaseDate": "1954-12-23",
-    "annotations": [
-      {
-        "keyword": "person",
-        "score": 120
-      },
-      {
-        "keyword": "sea",
-        "score": 170
-      }
-    ],
-    "segments": [
-      {
-        "keyword": "person",
-        "start": 13,
-        "end": 77
-      },
-      {
-        "keyword": "sea",
-        "start": 23,
-        "end": 99
-      }
-    ]
-  },
-  {
     "title": "The Old Man and the Sea",
     "runtime": 93.0,
     "genres": ["Action", "Drama", "Foreign", "TV Movie"],
@@ -178,67 +62,6 @@
     ]
   },
   {
-    "title": "Cats & Dogs",
-    "runtime": 87,
-    "genres": ["Comedy", "Family"],
-    "overview": "When a professor develops a vaccine that eliminates human allergies to dogs, he unwittingly upsets the fragile balance of power between cats and dogs and touches off an epic battle for pet supremacy. The fur flies as the feline faction, led by Mr. Tinkles, squares off against wide-eyed puppy Lou and his canine cohorts.",
-    "posterUrl": "https://image.tmdb.org/t/p/original/mm56m8wd2BBm94FwlelT2fNl6n1.jpg",
-    "releaseDate": "2001-07-04",
-    "annotations": [
-      {
-        "keyword": "cat",
-        "score": 200
-      },
-      {
-        "keyword": "dog",
-        "score": 200
-      }
-    ],
-    "segments": [
-      {
-        "keyword": "cat",
-        "start": 0,
-        "end": 20
-      },
-      {
-        "keyword": "cat",
-        "start": 30,
-        "end": 40
-      },
-      {
-        "keyword": "dog",
-        "start": 10,
-        "end": 23
-      },
-      {
-        "keyword": "dog",
-        "start": 45,
-        "end": 99
-      }
-    ]
-  },
-  {
-    "title": "Fritz the Cat",
-    "runtime": 78,
-    "genres": ["Animation", "Comedy", "Drama"],
-    "overview": "A hypocritical swinging college student cat raises hell in a satiric vision of various elements on the 1960's.",
-    "posterUrl": "https://image.tmdb.org/t/p/original/4otzVqrJRbBsVaE7yZnggfSeC0B.jpg",
-    "releaseDate": "1972-04-12",
-    "annotations": [
-      {
-        "keyword": "cat",
-        "score": 230
-      }
-    ],
-    "segments": [
-      {
-        "keyword": "cat",
-        "start": 10,
-        "end": 34
-      }
-    ]
-  },
-  {
     "title": "Eye for an Eye",
     "runtime": 101,
     "genres": ["Drama", "Thriller"],
@@ -290,342 +113,6 @@
         "keyword": "person",
         "start": 40,
         "end": 44
-      }
-    ]
-  },
-  {
-    "title": "The Whale",
-    "runtime": 89.0,
-    "genres": ["Documentary"],
-    "overview": "THE WHALE tells the true story of a young, wild killer whale - an orca - nicknamed Luna, who lost contact with his family on the coast of British Columbia and turned up alone in a narrow stretch of sea between mountains, a place called Nootka Sound.",
-    "posterUrl": "https://xl.movieposterdb.com/11_09/2011/1708537/xl_1708537_1a1c8d82.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=zrrVDQEz5L0",
-    "releaseDate": "2011-09-09",
-    "annotations": [
-      {
-        "keyword": "cat",
-        "score": 246.7
-      },
-      {
-        "keyword": "horse",
-        "score": 204.4
-      },
-      {
-        "keyword": "elephant",
-        "score": 241.6
-      },
-      {
-        "keyword": "person",
-        "score": 210.3
-      },
-      {
-        "keyword": "bird",
-        "score": 128.7
-      },
-      {
-        "keyword": "dog",
-        "score": 281.7
-      },
-      {
-        "keyword": "boat",
-        "score": 180.8
-      },
-      {
-        "keyword": "surfboard",
-        "score": 179.2
-      },
-      {
-        "keyword": "car",
-        "score": 253.1
-      },
-      {
-        "keyword": "spoon",
-        "score": 285.0
-      },
-      {
-        "keyword": "baseball bat",
-        "score": 199.0
-      },
-      {
-        "keyword": "knife",
-        "score": 174.3
-      },
-      {
-        "keyword": "mouse",
-        "score": 253.8
-      },
-      {
-        "keyword": "cow",
-        "score": 20.3
-      },
-      {
-        "keyword": "bed",
-        "score": 320.6
-      },
-      {
-        "keyword": "apple",
-        "score": 231.5
-      },
-      {
-        "keyword": "buildings",
-        "score": 8.0
-      }
-    ],
-    "segments": [
-      {
-        "keyword": "horse",
-        "start": 9,
-        "end": 10
-      },
-      {
-        "keyword": "horse",
-        "start": 37,
-        "end": 38
-      },
-      {
-        "keyword": "horse",
-        "start": 133,
-        "end": 133
-      },
-      {
-        "keyword": "elephant",
-        "start": 9,
-        "end": 9
-      },
-      {
-        "keyword": "elephant",
-        "start": 11,
-        "end": 11
-      },
-      {
-        "keyword": "person",
-        "start": 9,
-        "end": 24
-      },
-      {
-        "keyword": "person",
-        "start": 26,
-        "end": 33
-      },
-      {
-        "keyword": "person",
-        "start": 35,
-        "end": 40
-      },
-      {
-        "keyword": "person",
-        "start": 44,
-        "end": 47
-      },
-      {
-        "keyword": "person",
-        "start": 49,
-        "end": 52
-      },
-      {
-        "keyword": "person",
-        "start": 58,
-        "end": 64
-      },
-      {
-        "keyword": "person",
-        "start": 70,
-        "end": 74
-      },
-      {
-        "keyword": "person",
-        "start": 77,
-        "end": 81
-      },
-      {
-        "keyword": "person",
-        "start": 85,
-        "end": 92
-      },
-      {
-        "keyword": "person",
-        "start": 94,
-        "end": 95
-      },
-      {
-        "keyword": "person",
-        "start": 98,
-        "end": 112
-      },
-      {
-        "keyword": "person",
-        "start": 121,
-        "end": 123
-      },
-      {
-        "keyword": "person",
-        "start": 126,
-        "end": 127
-      },
-      {
-        "keyword": "person",
-        "start": 129,
-        "end": 129
-      },
-      {
-        "keyword": "person",
-        "start": 133,
-        "end": 133
-      },
-      {
-        "keyword": "person",
-        "start": 135,
-        "end": 143
-      },
-      {
-        "keyword": "person",
-        "start": 146,
-        "end": 149
-      },
-      {
-        "keyword": "bird",
-        "start": 10,
-        "end": 10
-      },
-      {
-        "keyword": "bird",
-        "start": 44,
-        "end": 47
-      },
-      {
-        "keyword": "bird",
-        "start": 58,
-        "end": 58
-      },
-      {
-        "keyword": "bird",
-        "start": 74,
-        "end": 77
-      },
-      {
-        "keyword": "bird",
-        "start": 130,
-        "end": 131
-      },
-      {
-        "keyword": "bird",
-        "start": 134,
-        "end": 135
-      },
-      {
-        "keyword": "dog",
-        "start": 17,
-        "end": 18
-      },
-      {
-        "keyword": "dog",
-        "start": 69,
-        "end": 70
-      },
-      {
-        "keyword": "dog",
-        "start": 124,
-        "end": 124
-      },
-      {
-        "keyword": "boat",
-        "start": 18,
-        "end": 18
-      },
-      {
-        "keyword": "boat",
-        "start": 22,
-        "end": 22
-      },
-      {
-        "keyword": "boat",
-        "start": 31,
-        "end": 32
-      },
-      {
-        "keyword": "boat",
-        "start": 37,
-        "end": 39
-      },
-      {
-        "keyword": "boat",
-        "start": 87,
-        "end": 96
-      },
-      {
-        "keyword": "boat",
-        "start": 106,
-        "end": 107
-      },
-      {
-        "keyword": "surfboard",
-        "start": 20,
-        "end": 20
-      },
-      {
-        "keyword": "surfboard",
-        "start": 33,
-        "end": 33
-      },
-      {
-        "keyword": "car",
-        "start": 21,
-        "end": 21
-      },
-      {
-        "keyword": "car",
-        "start": 33,
-        "end": 33
-      },
-      {
-        "keyword": "car",
-        "start": 35,
-        "end": 35
-      },
-      {
-        "keyword": "spoon",
-        "start": 24,
-        "end": 24
-      },
-      {
-        "keyword": "baseball bat",
-        "start": 24,
-        "end": 25
-      },
-      {
-        "keyword": "knife",
-        "start": 24,
-        "end": 24
-      },
-      {
-        "keyword": "mouse",
-        "start": 33,
-        "end": 35
-      },
-      {
-        "keyword": "cow",
-        "start": 38,
-        "end": 38
-      },
-      {
-        "keyword": "bed",
-        "start": 118,
-        "end": 119
-      },
-      {
-        "keyword": "cat",
-        "start": 130,
-        "end": 131
-      },
-      {
-        "keyword": "apple",
-        "start": 137,
-        "end": 138
-      },
-      {
-        "keyword": "buildings",
-        "start": 114,
-        "end": 117
       }
     ]
   },
@@ -1239,6 +726,303 @@
         "keyword": "airplane",
         "start": 70,
         "end": 71
+      }
+    ]
+  },
+  {
+    "title": "Girl in Woods",
+    "runtime": 87,
+    "genres": ["Drama", "Horror", "Thriller"],
+    "overview": "After a tragic accident Grace is lost and alone in the Smoky Mountains. Grace's struggle for survival is made more complicated by her troubled past. Battling the demons in her mind may be the only way to come out alive.",
+    "posterUrl": "https://xl.movieposterdb.com/14_02/2013/2554842/xl_2554842_2a06bdf4.jpg",
+    "releaseDate": "2016-06-03",
+    "trailerUrl": "https://www.youtube.com/watch?v=WqMNeTMwB3k",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 664.0
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 10,
+        "end": 13
+      },
+      {
+        "keyword": "person",
+        "start": 16,
+        "end": 21
+      },
+      {
+        "keyword": "person",
+        "start": 25,
+        "end": 34
+      },
+      {
+        "keyword": "person",
+        "start": 36,
+        "end": 37
+      },
+      {
+        "keyword": "person",
+        "start": 39,
+        "end": 43
+      },
+      {
+        "keyword": "person",
+        "start": 46,
+        "end": 49
+      },
+      {
+        "keyword": "person",
+        "start": 52,
+        "end": 59
+      },
+      {
+        "keyword": "person",
+        "start": 63,
+        "end": 67
+      },
+      {
+        "keyword": "person",
+        "start": 71,
+        "end": 73
+      },
+      {
+        "keyword": "person",
+        "start": 75,
+        "end": 76
+      },
+      {
+        "keyword": "person",
+        "start": 78,
+        "end": 78
+      },
+      {
+        "keyword": "person",
+        "start": 83,
+        "end": 91
+      },
+      {
+        "keyword": "person",
+        "start": 93,
+        "end": 109
+      }
+    ]
+  },
+  {
+    "title": "Slack Bay",
+    "runtime": 122,
+    "genres": ["Drama", "Comedy"],
+    "overview": "Summer 1910. Several tourists have vanished while relaxing on the beautiful beaches of the Channel Coast. Infamous inspectors Machin and Malfoy soon gather that the epicenter of these mysterious disappearances must be Slack Bay, a unique site where the Slack river and the sea join only at high tide.",
+    "posterUrl": "https://image.tmdb.org/t/p/original/aQqvAfWauk54P63BS7iIpLOsB2o.jpg",
+    "releaseDate": "2016-05-13",
+    "trailerUrl": "https://www.youtube.com/watch?v=rhNZMXJF3Gg",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 418.1
+      },
+      {
+        "keyword": "umbrella",
+        "score": 402.7
+      },
+      {
+        "keyword": "surfboard",
+        "score": 413.9
+      },
+      {
+        "keyword": "bird",
+        "score": 170.9
+      },
+      {
+        "keyword": "stop sign",
+        "score": 453.1
+      },
+      {
+        "keyword": "dog",
+        "score": 745.9
+      },
+      {
+        "keyword": "fire hydrant",
+        "score": 348.9
+      },
+      {
+        "keyword": "boat",
+        "score": 531.7
+      },
+      {
+        "keyword": "buildings",
+        "score": 0.5
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 3,
+        "end": 17
+      },
+      {
+        "keyword": "person",
+        "start": 21,
+        "end": 28
+      },
+      {
+        "keyword": "person",
+        "start": 30,
+        "end": 39
+      },
+      {
+        "keyword": "person",
+        "start": 44,
+        "end": 89
+      },
+      {
+        "keyword": "person",
+        "start": 91,
+        "end": 102
+      },
+      {
+        "keyword": "person",
+        "start": 104,
+        "end": 106
+      },
+      {
+        "keyword": "umbrella",
+        "start": 54,
+        "end": 54
+      },
+      {
+        "keyword": "umbrella",
+        "start": 58,
+        "end": 58
+      },
+      {
+        "keyword": "umbrella",
+        "start": 72,
+        "end": 72
+      },
+      {
+        "keyword": "umbrella",
+        "start": 83,
+        "end": 83
+      },
+      {
+        "keyword": "surfboard",
+        "start": 57,
+        "end": 58
+      },
+      {
+        "keyword": "bird",
+        "start": 59,
+        "end": 60
+      },
+      {
+        "keyword": "bird",
+        "start": 67,
+        "end": 67
+      },
+      {
+        "keyword": "bird",
+        "start": 85,
+        "end": 85
+      },
+      {
+        "keyword": "bird",
+        "start": 98,
+        "end": 98
+      },
+      {
+        "keyword": "stop sign",
+        "start": 72,
+        "end": 72
+      },
+      {
+        "keyword": "dog",
+        "start": 77,
+        "end": 77
+      },
+      {
+        "keyword": "fire hydrant",
+        "start": 80,
+        "end": 80
+      },
+      {
+        "keyword": "boat",
+        "start": 90,
+        "end": 90
+      },
+      {
+        "keyword": "buildings",
+        "start": 17,
+        "end": 17
+      }
+    ]
+  },
+  {
+    "title": "The End",
+    "runtime": 95,
+    "genres": ["Drama", "Thriller"],
+    "overview": "A group of old friends gets together for a weekend in a mountain cabin. Years have gone by and yet nothing seems to have changed between them. But lurking behind the laughter and stories is a murky episode from the past that continues to haunt them. A strange, sudden incident alters their plans, leaving them stranded and with no line of communication to the outside world. On their way for help, the group starts to disintegrate, just as a new natural order is unveiled before their astonished eyes.",
+    "posterUrl": "https://xl.movieposterdb.com/13_04/2012/2046090/xl_2046090_ef75036b.jpg",
+    "releaseDate": "2012-11-23",
+    "trailerUrl": "https://www.youtube.com/watch?v=454q47FJzUY",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 505.5
+      },
+      {
+        "keyword": "bed",
+        "score": 953.5
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 9,
+        "end": 12
+      },
+      {
+        "keyword": "person",
+        "start": 15,
+        "end": 20
+      },
+      {
+        "keyword": "person",
+        "start": 24,
+        "end": 28
+      },
+      {
+        "keyword": "person",
+        "start": 32,
+        "end": 33
+      },
+      {
+        "keyword": "person",
+        "start": 37,
+        "end": 38
+      },
+      {
+        "keyword": "person",
+        "start": 40,
+        "end": 52
+      },
+      {
+        "keyword": "person",
+        "start": 54,
+        "end": 58
+      },
+      {
+        "keyword": "person",
+        "start": 63,
+        "end": 64
+      },
+      {
+        "keyword": "bed",
+        "start": 64,
+        "end": 65
       }
     ]
   }
