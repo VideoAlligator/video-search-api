@@ -40,6 +40,9 @@ export enum Keyword {
   keyboard = 'keyboard',
   chair = 'chair',
   book = 'book',
+  couch = 'couch',
+  oven = 'oven',
+  cup = 'cup',
 }
 
 export enum Genres {

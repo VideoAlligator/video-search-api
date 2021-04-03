@@ -1464,5 +1464,358 @@
         "end": 19
       }
     ]
+  },
+  {
+    "title": "Metalhead",
+    "runtime": 97,
+    "genres": ["Drama"],
+    "overview": "It's the year 1970 and as Black Sabbath record their first album and mark the birth of Heavy Metal, Hera Karlsdottir is born on the cowshed floor at her parents farm in rural Iceland.  The years of her youth are carefree until a tragedy strikes. Her older brother is killed in a accident and Hera blames herself for his death. In her grieve she finds solace in the dark music of Heavy Metal and dreams of becoming a rock star.  As the years pass on the farm buried under a shroud of snow and a looming ominous mountain Hera practises her guitar and dreams of forming a band. Hera is a rebellious, misunderstood delinquent in her early twenties who can't help but get into trouble. She dreams of escaping out into the world but somehow always ends up at her own doorstep.  When her childhood friend returns intent on marrying her and a young priest moves to the farming community the wheels of fate start turning. Hera has to grow up, find her own voice and realize she can't run away her whole life.",
+    "posterUrl": "https://xl.movieposterdb.com/14_12/2013/2374902/xl_2374902_3d7d2539.jpg",
+    "releaseDate": "2013-10-11",
+    "trailerUrl": "https://www.youtube.com/watch?v=dyxhcNsjWKI",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 426.8
+      },
+      {
+        "keyword": "truck",
+        "score": 1094.7
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 10,
+        "end": 15
+      },
+      {
+        "keyword": "person",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "keyword": "person",
+        "start": 30,
+        "end": 39
+      },
+      {
+        "keyword": "person",
+        "start": 43,
+        "end": 59
+      },
+      {
+        "keyword": "person",
+        "start": 62,
+        "end": 65
+      },
+      {
+        "keyword": "person",
+        "start": 67,
+        "end": 73
+      },
+      {
+        "keyword": "person",
+        "start": 75,
+        "end": 85
+      },
+      {
+        "keyword": "person",
+        "start": 88,
+        "end": 91
+      },
+      {
+        "keyword": "person",
+        "start": 95,
+        "end": 98
+      },
+      {
+        "keyword": "person",
+        "start": 102,
+        "end": 104
+      },
+      {
+        "keyword": "truck",
+        "start": 39,
+        "end": 42
+      }
+    ]
+  },
+  {
+    "title": "Perfect Proposal",
+    "runtime": 110.0,
+    "genres": ["Romance", "Crime", "Thriller"],
+    "overview": "While running a travel agency in Macau, Ji-yeon is ripped off by her business partner. One day, the attractive and benevolent Sung-yeol gives her an irresistible offer: $5,000 monthly salary to live on a luxurious yacht and be the personal care aide of the owner of Cenado, a prominent shipping and casino operator company. Without another option to fall back on, she complies and nurses the ailing man, who is impossible to deal with. Ji-yeon slowly gains the attention of both Sung-yeol and the magnate, and wavers between an opportunity that will secure her future and love. As tension rises among these figures on the yacht, no one can predict its outcome.",
+    "posterUrl": "https://xl.movieposterdb.com/15_04/2015/3602144/xl_3602144_e0964686.jpg",
+    "releaseDate": "2015-06-04",
+    "trailerUrl": "https://www.youtube.com/watch?v=c92_FFybFf4",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 643.4
+      },
+      {
+        "keyword": "car",
+        "score": 124.6
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 6,
+        "end": 18
+      },
+      {
+        "keyword": "person",
+        "start": 20,
+        "end": 37
+      },
+      {
+        "keyword": "car",
+        "start": 33,
+        "end": 34
+      }
+    ]
+  },
+  {
+    "title": "Sel8nne",
+    "runtime": 110.0,
+    "genres": ["Documentary"],
+    "overview": "Sel\u00e4nne is a documentary about Teemu Sel\u00e4nne\u2014the best Finnish ice hockey player of all time. It's directed by JP Siili, whose previous films include such hits as H\u00e4rm\u00e4 and Ganes.  We've followed the heroic tales of Sel\u00e4nne for over two decades. His exploits are famous, but now we get to know Sel\u00e4nne the man. In this documentary Teemu lets the viewer get close and under his skin. The film follows Sel\u00e4nne's journey from childhood to the latest NHL season. We see the life story of an exceptional athlete inside and out, not only through Teemu's words, but through the views of his loved ones and colleagues. Sel\u00e4nne is charismatic, social, irritating, charming, happy and always late. Welcome to the life of Teemu Sel\u00e4nne!",
+    "posterUrl": "https://xl.movieposterdb.com/14_12/2013/2704212/xl_2704212_5b7185de.jpg",
+    "releaseDate": "2013-09-26",
+    "trailerUrl": "https://www.youtube.com/watch?v=nZbf__zq768",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 214.4
+      },
+      {
+        "keyword": "bicycle",
+        "score": 44.1
+      },
+      {
+        "keyword": "airplane",
+        "score": 57.5
+      },
+      {
+        "keyword": "couch",
+        "score": 325.2
+      },
+      {
+        "keyword": "car",
+        "score": 172.0
+      },
+      {
+        "keyword": "boat",
+        "score": 107.3
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 0,
+        "end": 0
+      },
+      {
+        "keyword": "person",
+        "start": 2,
+        "end": 11
+      },
+      {
+        "keyword": "person",
+        "start": 13,
+        "end": 13
+      },
+      {
+        "keyword": "person",
+        "start": 15,
+        "end": 20
+      },
+      {
+        "keyword": "person",
+        "start": 22,
+        "end": 24
+      },
+      {
+        "keyword": "person",
+        "start": 26,
+        "end": 37
+      },
+      {
+        "keyword": "person",
+        "start": 39,
+        "end": 89
+      },
+      {
+        "keyword": "person",
+        "start": 92,
+        "end": 96
+      },
+      {
+        "keyword": "bicycle",
+        "start": 6,
+        "end": 6
+      },
+      {
+        "keyword": "airplane",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "keyword": "couch",
+        "start": 18,
+        "end": 19
+      },
+      {
+        "keyword": "car",
+        "start": 24,
+        "end": 26
+      },
+      {
+        "keyword": "boat",
+        "start": 45,
+        "end": 46
+      }
+    ]
+  },
+  {
+    "title": "Siv Sleeps Astray",
+    "runtime": 79.0,
+    "genres": ["Adventure", "Family"],
+    "overview": "Seven-year-old Siv\u2019s first night sleeping over at her new friend Cerisia\u2019s place turns out to be a magical one. In the early evening, many things are already beginning to seem odd, the exotic food, all of the animals ... At night though, the unfamiliar flat really starts to become a realm full of secrets.",
+    "posterUrl": "https://xl.movieposterdb.com/19_12/2016/4861720/xl_4861720_465bbe56.jpg",
+    "releaseDate": "2016-09-28",
+    "trailerUrl": "https://www.youtube.com/watch?v=jNwtRfmwSYQ",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 597.3
+      },
+      {
+        "keyword": "oven",
+        "score": 310.1
+      },
+      {
+        "keyword": "cat",
+        "score": 830.7
+      },
+      {
+        "keyword": "cup",
+        "score": 406.2
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 5,
+        "end": 24
+      },
+      {
+        "keyword": "person",
+        "start": 28,
+        "end": 45
+      },
+      {
+        "keyword": "person",
+        "start": 48,
+        "end": 50
+      },
+      {
+        "keyword": "person",
+        "start": 52,
+        "end": 57
+      },
+      {
+        "keyword": "oven",
+        "start": 30,
+        "end": 30
+      },
+      {
+        "keyword": "cat",
+        "start": 34,
+        "end": 34
+      },
+      {
+        "keyword": "cat",
+        "start": 48,
+        "end": 48
+      },
+      {
+        "keyword": "cup",
+        "start": 44,
+        "end": 44
+      },
+      {
+        "keyword": "cup",
+        "start": 48,
+        "end": 48
+      }
+    ]
+  },
+  {
+    "title": "Stranded",
+    "runtime": 86.0,
+    "genres": ["Drama"],
+    "overview": "After the brutal murder of his beloved brother, a small-town surfer seeks revenge against the gang of merciless thugs he holds responsible. However, when another tragedy brings him face to face with the consequences of his actions, he must seek forgiveness from the very people he despises most.",
+    "posterUrl": "https://xl.movieposterdb.com/14_11/2014/2073661/xl_2073661_ebd05cdc.jpg",
+    "releaseDate": "2015-06-05",
+    "trailerUrl": "https://www.youtube.com/watch?v=u_M8TFULQRA",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 477.9
+      },
+      {
+        "keyword": "surfboard",
+        "score": 559.4
+      },
+      {
+        "keyword": "umbrella",
+        "score": 105.5
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "keyword": "person",
+        "start": 10,
+        "end": 28
+      },
+      {
+        "keyword": "person",
+        "start": 30,
+        "end": 39
+      },
+      {
+        "keyword": "person",
+        "start": 42,
+        "end": 45
+      },
+      {
+        "keyword": "person",
+        "start": 48,
+        "end": 69
+      },
+      {
+        "keyword": "person",
+        "start": 71,
+        "end": 72
+      },
+      {
+        "keyword": "surfboard",
+        "start": 10,
+        "end": 10
+      },
+      {
+        "keyword": "umbrella",
+        "start": 16,
+        "end": 16
+      }
+    ]
   }
 ]
