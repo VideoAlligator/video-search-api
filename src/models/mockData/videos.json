@@ -950,5 +950,519 @@
         "end": 14
       }
     ]
+  },
+  {
+    "title": "Horror",
+    "runtime": 90.0,
+    "genres": ["Drama", "Mystery", "Horror", "Thriller"],
+    "overview": "Inspired by actual events, a group of 12 year old girls face a night of horror when the compulsive addiction of an online social media game turns a moment of cyber bullying into a night of insanity.",
+    "posterUrl": "https://xl.movieposterdb.com/15_10/2015/3526286/xl_3526286_44576477.jpg",
+    "releaseDate": "2015-11-20",
+    "trailerUrl": "https://www.youtube.com/watch?v=LDQdE2UkGN8",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 533.5
+      },
+      {
+        "keyword": "car",
+        "score": 221.2
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "keyword": "person",
+        "start": 18,
+        "end": 20
+      },
+      {
+        "keyword": "person",
+        "start": 22,
+        "end": 23
+      },
+      {
+        "keyword": "person",
+        "start": 28,
+        "end": 45
+      },
+      {
+        "keyword": "person",
+        "start": 52,
+        "end": 58
+      },
+      {
+        "keyword": "person",
+        "start": 67,
+        "end": 68
+      },
+      {
+        "keyword": "person",
+        "start": 77,
+        "end": 78
+      },
+      {
+        "keyword": "person",
+        "start": 80,
+        "end": 81
+      },
+      {
+        "keyword": "person",
+        "start": 91,
+        "end": 94
+      },
+      {
+        "keyword": "car",
+        "start": 56,
+        "end": 57
+      }
+    ]
+  },
+  {
+    "title": "12 Gifts of Christmas",
+    "runtime": 84.0,
+    "genres": ["Family", "TV Movie"],
+    "overview": "When Anna Parisi, an unemployed fine arts painter, is unable to make ends meet, she is hired to become a personal Christmas shopper for Marc, an uptight corporate exec.  As they begin working together, Marc learns that Christmas giving has less to do with the amount of money spent and more to do with the importance of the gift, while Anna discovers she might find success as an artist in a way she never expected.  The best gift of all of course is the love they discover with one another.",
+    "posterUrl": "https://xl.movieposterdb.com/15_11/2015/5133810/xl_5133810_789a14ea.jpg",
+    "releaseDate": "2015-11-26",
+    "trailerUrl": "https://www.youtube.com/watch?v=TLwh4vgAyy8",
+    "annotations": [
+      {
+        "keyword": "stop sign",
+        "score": 193.1
+      },
+      {
+        "keyword": "person",
+        "score": 713.2
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "stop sign",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "keyword": "person",
+        "start": 10,
+        "end": 26
+      }
+    ]
+  },
+  {
+    "title": "Dark Tide",
+    "runtime": 113.0,
+    "genres": ["Thriller", "Adventure", "Drama"],
+    "overview": "A traumatized shark expert (Halle Berry) must battle her own fears to lead a thrill-seeking businessman on a dive into a dangerous section of water known as \"Shark Alley.\"",
+    "posterUrl": "https://xl.movieposterdb.com/12_02/2011/1507563/xl_1507563_0b9ac241.jpg",
+    "releaseDate": "2012-03-28",
+    "trailerUrl": "https://www.youtube.com/watch?v=0ipC-bjnH4A",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 146.2
+      },
+      {
+        "keyword": "boat",
+        "score": 271.5
+      },
+      {
+        "keyword": "truck",
+        "score": 90.1
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 11,
+        "end": 13
+      },
+      {
+        "keyword": "person",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "keyword": "person",
+        "start": 28,
+        "end": 35
+      },
+      {
+        "keyword": "person",
+        "start": 37,
+        "end": 39
+      },
+      {
+        "keyword": "person",
+        "start": 41,
+        "end": 47
+      },
+      {
+        "keyword": "person",
+        "start": 52,
+        "end": 55
+      },
+      {
+        "keyword": "person",
+        "start": 58,
+        "end": 59
+      },
+      {
+        "keyword": "person",
+        "start": 65,
+        "end": 66
+      },
+      {
+        "keyword": "person",
+        "start": 68,
+        "end": 71
+      },
+      {
+        "keyword": "person",
+        "start": 73,
+        "end": 78
+      },
+      {
+        "keyword": "person",
+        "start": 82,
+        "end": 83
+      },
+      {
+        "keyword": "person",
+        "start": 88,
+        "end": 89
+      },
+      {
+        "keyword": "boat",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "keyword": "truck",
+        "start": 44,
+        "end": 45
+      }
+    ]
+  },
+  {
+    "title": "Good Kill",
+    "runtime": 104.0,
+    "genres": ["Action", "Drama", "Thriller"],
+    "overview": "In the shadowy world of drone warfare, combat unfolds like a video game\u2013only with real lives at stake. After six tours of duty, Air Force pilot Tom Egan (Ethan Hawke) now fights the Taliban from an air-conditioned bunker in the Nevada desert. But as he yearns to get back in the cockpit of a real plane and becomes increasingly troubled by the collateral damage he causes each time he pushes a button, Egan\u2019s nerves\u2014and his relationship with his wife (Mad Men's January Jones)\u2014begin to unravel.",
+    "posterUrl": "https://xl.movieposterdb.com/14_09/2014/3297330/xl_3297330_a51a85a5.jpg",
+    "releaseDate": "2015-04-09",
+    "trailerUrl": "https://www.youtube.com/watch?v=c7ADAgsmI2o",
+    "annotations": [
+      {
+        "keyword": "keyboard",
+        "score": 1314.5
+      },
+      {
+        "keyword": "person",
+        "score": 535.0
+      },
+      {
+        "keyword": "truck",
+        "score": 116.0
+      },
+      {
+        "keyword": "airplane",
+        "score": 237.4
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "keyboard",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "keyword": "person",
+        "start": 16,
+        "end": 20
+      },
+      {
+        "keyword": "person",
+        "start": 26,
+        "end": 31
+      },
+      {
+        "keyword": "person",
+        "start": 36,
+        "end": 39
+      },
+      {
+        "keyword": "person",
+        "start": 42,
+        "end": 44
+      },
+      {
+        "keyword": "person",
+        "start": 46,
+        "end": 48
+      },
+      {
+        "keyword": "person",
+        "start": 50,
+        "end": 51
+      },
+      {
+        "keyword": "person",
+        "start": 60,
+        "end": 63
+      },
+      {
+        "keyword": "person",
+        "start": 67,
+        "end": 69
+      },
+      {
+        "keyword": "person",
+        "start": 72,
+        "end": 90
+      },
+      {
+        "keyword": "person",
+        "start": 92,
+        "end": 95
+      },
+      {
+        "keyword": "truck",
+        "start": 24,
+        "end": 26
+      },
+      {
+        "keyword": "airplane",
+        "start": 59,
+        "end": 62
+      },
+      {
+        "keyword": "airplane",
+        "start": 85,
+        "end": 86
+      }
+    ]
+  },
+  {
+    "title": "Higher Ground",
+    "runtime": 109.0,
+    "genres": ["Drama", "Thriller"],
+    "overview": "A chronicle of one woman's lifelong struggle with her faith.",
+    "posterUrl": "https://xl.movieposterdb.com/11_07/2011/1562568/xl_1562568_66c45eb7.jpg",
+    "releaseDate": "2011-08-26",
+    "trailerUrl": "https://www.youtube.com/watch?v=vh93pheDAns",
+    "annotations": [
+      {
+        "keyword": "chair",
+        "score": 155.2
+      },
+      {
+        "keyword": "person",
+        "score": 1003.4
+      },
+      {
+        "keyword": "book",
+        "score": 1145.1
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "chair",
+        "start": 4,
+        "end": 6
+      },
+      {
+        "keyword": "person",
+        "start": 6,
+        "end": 40
+      },
+      {
+        "keyword": "book",
+        "start": 7,
+        "end": 8
+      }
+    ]
+  },
+  {
+    "title": "Much Ado About Nothing",
+    "runtime": 107.0,
+    "genres": ["Comedy"],
+    "overview": "A modern retelling of Shakespeare's classic comedy about two pairs of lovers with different takes on romance and a way with words.",
+    "posterUrl": "https://xl.movieposterdb.com/13_06/2012/2094064/xl_2094064_934239bb.jpg",
+    "releaseDate": "2012-09-08",
+    "trailerUrl": "https://www.youtube.com/watch?v=T5ZWwaMHIuA",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 747.9
+      },
+      {
+        "keyword": "car",
+        "score": 649.7
+      },
+      {
+        "keyword": "forest",
+        "score": 0.5
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 10,
+        "end": 13
+      },
+      {
+        "keyword": "person",
+        "start": 15,
+        "end": 17
+      },
+      {
+        "keyword": "person",
+        "start": 19,
+        "end": 33
+      },
+      {
+        "keyword": "person",
+        "start": 36,
+        "end": 48
+      },
+      {
+        "keyword": "person",
+        "start": 52,
+        "end": 60
+      },
+      {
+        "keyword": "person",
+        "start": 62,
+        "end": 70
+      },
+      {
+        "keyword": "person",
+        "start": 72,
+        "end": 81
+      },
+      {
+        "keyword": "person",
+        "start": 83,
+        "end": 85
+      },
+      {
+        "keyword": "person",
+        "start": 87,
+        "end": 89
+      },
+      {
+        "keyword": "person",
+        "start": 91,
+        "end": 100
+      },
+      {
+        "keyword": "car",
+        "start": 18,
+        "end": 19
+      },
+      {
+        "keyword": "forest",
+        "start": 73,
+        "end": 73
+      }
+    ]
+  },
+  {
+    "title": "Sexual Chronicles of a French Family",
+    "runtime": 81.0,
+    "genres": ["Comedy", "Drama"],
+    "overview": "Three generations of a French family open up about their sexual experiences and desires after young Romain is caught masturbating in his biology class.",
+    "posterUrl": "https://xl.movieposterdb.com/12_04/2012/1753584/xl_1753584_850bdb68.jpg",
+    "releaseDate": "2012-05-09",
+    "trailerUrl": "https://www.youtube.com/watch?v=uZq9OfchXEE",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 343.5
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 3,
+        "end": 21
+      },
+      {
+        "keyword": "person",
+        "start": 24,
+        "end": 83
+      }
+    ]
+  },
+  {
+    "title": "WNUF Halloween Special",
+    "runtime": 83.0,
+    "genres": ["Horror", "Comedy"],
+    "overview": "Originally broadcast live on October 31, 1987, the \"WNUF Halloween Special\" is a stunning expose of terrifying supernatural activity that unfolded at the infamous Webber House, the site of ghastly murders.  Local television personality Frank Stewart leads a group of paranormal investigators including Catholic exorcist, Father Joseph Matheson and the prolific husband-and-wife team Louis and Claire Berger. Together, the experts explore the darkest corners of the supposedly haunted Webber House, trying to prove the existence of the demonic entities within.  Did they find the horrific truth or simply put superstitious rumors to rest?  Compiled from the highest quality source material available, this trailer is for the first official release the program has received since its initial broadcast.",
+    "posterUrl": "https://xl.movieposterdb.com/14_01/2013/3104078/xl_3104078_0308954c.jpg",
+    "releaseDate": "2013-10-23",
+    "trailerUrl": "https://www.youtube.com/watch?v=u5iCF2Ltjlk",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 201.7
+      },
+      {
+        "keyword": "cat",
+        "score": 219.0
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 4,
+        "end": 13
+      },
+      {
+        "keyword": "person",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "keyword": "person",
+        "start": 21,
+        "end": 26
+      },
+      {
+        "keyword": "person",
+        "start": 30,
+        "end": 41
+      },
+      {
+        "keyword": "person",
+        "start": 44,
+        "end": 45
+      },
+      {
+        "keyword": "person",
+        "start": 47,
+        "end": 56
+      },
+      {
+        "keyword": "person",
+        "start": 58,
+        "end": 65
+      },
+      {
+        "keyword": "person",
+        "start": 68,
+        "end": 74
+      },
+      {
+        "keyword": "cat",
+        "start": 18,
+        "end": 19
+      }
+    ]
   }
 ]

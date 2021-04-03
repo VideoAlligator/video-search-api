@@ -37,6 +37,9 @@ export enum Keyword {
   fire_hydrant = 'fire hydrant',
   umbrella = 'umbrella',
   bus = 'bus',
+  keyboard = 'keyboard',
+  chair = 'chair',
+  book = 'book',
 }
 
 export enum Genres {
@@ -51,6 +54,7 @@ export enum Genres {
   FANTASY = 'Fantasy',
   FOREIGN = 'Foreign',
   HORROR = 'Horror',
+  MYSTERY = 'Mystery',
   ROMANCE = 'Romance',
   SCIENCE_FICTION = 'Science Fiction',
   THRILLER = 'Thriller',
