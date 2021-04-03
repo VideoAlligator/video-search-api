@@ -36,6 +36,7 @@ export enum Keyword {
   stop_sign = 'stop sign',
   fire_hydrant = 'fire hydrant',
   umbrella = 'umbrella',
+  bus = 'bus',
 }
 
 export enum Genres {
@@ -43,6 +44,7 @@ export enum Genres {
   ADVENTURE = 'Adventure',
   ANIMATION = 'Animation',
   COMEDY = 'Comedy',
+  CRIME = 'Crime',
   DRAMA = 'Drama',
   DOCUMENTARY = 'Documentary',
   FAMILY = 'Family',
