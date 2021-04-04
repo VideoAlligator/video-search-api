@@ -1817,5 +1817,750 @@
         "end": 16
       }
     ]
+  },
+  {
+    "title": "Bears",
+    "runtime": 78,
+    "genres": ["Documentary"],
+    "overview": "Filmmakers Alastair Fothergill and Keith Scholey chronicle a year in the lives of an Alaskan brown bear named Sky and her cubs, Scout and Amber. Their saga begins as the bears emerge from hibernation at the end of winter. As time passes, the bear family must work together to find food and stay safe from other predators, especially other bears. Although their world is exciting, it is also risky, and the cubs' survival hinges on family togetherness.",
+    "posterUrl": "https://www.themoviedb.org/t/p/w1280/dO2JdK7MonWis9Jg2im9IcVq7eJ.jpg",
+    "releaseDate": "2014-04-18",
+    "trailerUrl": "https://www.youtube.com/watch?v=a6gHj0bHmg8",
+    "annotations": [
+      {
+        "keyword": "bear",
+        "score": 688.7
+      },
+      {
+        "keyword": "dog",
+        "score": 1082.5
+      },
+      {
+        "keyword": "glacier",
+        "score": 1.5
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "bear",
+        "start": 10,
+        "end": 13
+      },
+      {
+        "keyword": "bear",
+        "start": 60,
+        "end": 62
+      },
+      {
+        "keyword": "bear",
+        "start": 64,
+        "end": 65
+      },
+      {
+        "keyword": "bear",
+        "start": 72,
+        "end": 73
+      },
+      {
+        "keyword": "bear",
+        "start": 78,
+        "end": 80
+      },
+      {
+        "keyword": "bear",
+        "start": 82,
+        "end": 86
+      },
+      {
+        "keyword": "bear",
+        "start": 89,
+        "end": 90
+      },
+      {
+        "keyword": "bear",
+        "start": 92,
+        "end": 96
+      },
+      {
+        "keyword": "bear",
+        "start": 98,
+        "end": 102
+      },
+      {
+        "keyword": "bear",
+        "start": 105,
+        "end": 106
+      },
+      {
+        "keyword": "bear",
+        "start": 112,
+        "end": 115
+      },
+      {
+        "keyword": "dog",
+        "start": 26,
+        "end": 27
+      },
+      {
+        "keyword": "dog",
+        "start": 94,
+        "end": 95
+      },
+      {
+        "keyword": "glacier",
+        "start": 62,
+        "end": 63
+      }
+    ]
+  },
+  {
+    "title": "Free Solo",
+    "runtime": 100.0,
+    "genres": ["Documentary", "Adventure"],
+    "overview": "Follow Alex Honnold as he attempts to become the first person to ever free solo climb Yosemite's 3,000 foot high El Capitan wall. With no ropes or safety gear, this would arguably be the greatest feat in rock climbing history.",
+    "posterUrl": "https://www.themoviedb.org/t/p/w1280/v4QfYZMACODlWul9doN9RxE99ag.jpg",
+    "releaseDate": "2018-12-14",
+    "trailerUrl": "https://www.youtube.com/watch?v=urRVZ4SW7WU",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 718.3
+      },
+      {
+        "keyword": "truck",
+        "score": 1339.5
+      },
+      {
+        "keyword": "mountain",
+        "score": 2.0
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 6,
+        "end": 9
+      },
+      {
+        "keyword": "person",
+        "start": 13,
+        "end": 18
+      },
+      {
+        "keyword": "person",
+        "start": 25,
+        "end": 30
+      },
+      {
+        "keyword": "person",
+        "start": 34,
+        "end": 36
+      },
+      {
+        "keyword": "person",
+        "start": 55,
+        "end": 59
+      },
+      {
+        "keyword": "person",
+        "start": 63,
+        "end": 68
+      },
+      {
+        "keyword": "person",
+        "start": 75,
+        "end": 82
+      },
+      {
+        "keyword": "person",
+        "start": 84,
+        "end": 93
+      },
+      {
+        "keyword": "person",
+        "start": 99,
+        "end": 102
+      },
+      {
+        "keyword": "person",
+        "start": 106,
+        "end": 109
+      },
+      {
+        "keyword": "person",
+        "start": 112,
+        "end": 119
+      },
+      {
+        "keyword": "person",
+        "start": 121,
+        "end": 126
+      },
+      {
+        "keyword": "person",
+        "start": 135,
+        "end": 140
+      },
+      {
+        "keyword": "truck",
+        "start": 36,
+        "end": 38
+      },
+      {
+        "keyword": "mountain",
+        "start": 46,
+        "end": 48
+      }
+    ]
+  },
+  {
+    "title": "In Between Mountains And Oceans",
+    "runtime": 79,
+    "genres": ["Documentary"],
+    "overview": "Finding their place between the forest and the sea, the Japanese have always felt awe and gratitude toward Nature. Since ancient times, they have negotiated their own unique relationship with their natural surroundings. Acclaimed photographer Masa-aki Miyazawa discovered the essence of that ancient way of living in Ise Jingu, Japan\u2019s holiest Shinto shrine. Inspired by the idea of sending a message to the future in the same way this ancient shrine keeps alive the traditions of the past, Miyazawa used an ultra-high resolution 4K camera to create a breathtaking visual journey linking the Ise forest with other forests throughout Japan.",
+    "posterUrl": "https://www.themoviedb.org/t/p/w1280/vnmVjaBopJeyJHoqamSuC9d8BvU.jpg",
+    "releaseDate": "2014-04-11",
+    "trailerUrl": "https://www.youtube.com/watch?v=ilptB3_FFTA",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 614.4
+      },
+      {
+        "keyword": "forest",
+        "score": 8.0
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 19,
+        "end": 25
+      },
+      {
+        "keyword": "person",
+        "start": 27,
+        "end": 30
+      },
+      {
+        "keyword": "person",
+        "start": 33,
+        "end": 34
+      },
+      {
+        "keyword": "person",
+        "start": 42,
+        "end": 45
+      },
+      {
+        "keyword": "person",
+        "start": 49,
+        "end": 54
+      },
+      {
+        "keyword": "person",
+        "start": 57,
+        "end": 64
+      },
+      {
+        "keyword": "person",
+        "start": 71,
+        "end": 89
+      },
+      {
+        "keyword": "person",
+        "start": 92,
+        "end": 96
+      },
+      {
+        "keyword": "person",
+        "start": 106,
+        "end": 108
+      },
+      {
+        "keyword": "forest",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "keyword": "forest",
+        "start": 25,
+        "end": 27
+      },
+      {
+        "keyword": "forest",
+        "start": 119,
+        "end": 121
+      }
+    ]
+  },
+  {
+    "title": "In the Heart of the Sea",
+    "runtime": 123,
+    "genres": ["Thriller", "Drama", "Adventure", "Action", "History"],
+    "overview": "In the winter of 1820, the New England whaling ship Essex is assaulted by something no one could believe\u2014a whale of mammoth size and will, and an almost human sense of vengeance.",
+    "posterUrl": "https://www.themoviedb.org/t/p/w1280/gLZEULfcS3uhfWDSEclOUgWiN41.jpg",
+    "releaseDate": "2015-12-11",
+    "trailerUrl": "https://www.youtube.com/watch?v=8L4KvJv_O-c",
+    "annotations": [
+      {
+        "keyword": "boat",
+        "score": 970.1
+      },
+      {
+        "keyword": "person",
+        "score": 872.3
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "boat",
+        "start": 7,
+        "end": 9
+      },
+      {
+        "keyword": "person",
+        "start": 10,
+        "end": 18
+      },
+      {
+        "keyword": "person",
+        "start": 20,
+        "end": 30
+      },
+      {
+        "keyword": "person",
+        "start": 33,
+        "end": 34
+      },
+      {
+        "keyword": "person",
+        "start": 36,
+        "end": 38
+      },
+      {
+        "keyword": "person",
+        "start": 41,
+        "end": 43
+      },
+      {
+        "keyword": "person",
+        "start": 46,
+        "end": 52
+      },
+      {
+        "keyword": "person",
+        "start": 54,
+        "end": 57
+      },
+      {
+        "keyword": "person",
+        "start": 64,
+        "end": 65
+      },
+      {
+        "keyword": "person",
+        "start": 67,
+        "end": 71
+      },
+      {
+        "keyword": "person",
+        "start": 74,
+        "end": 79
+      },
+      {
+        "keyword": "person",
+        "start": 96,
+        "end": 98
+      },
+      {
+        "keyword": "person",
+        "start": 102,
+        "end": 110
+      },
+      {
+        "keyword": "person",
+        "start": 116,
+        "end": 117
+      },
+      {
+        "keyword": "person",
+        "start": 119,
+        "end": 123
+      },
+      {
+        "keyword": "person",
+        "start": 128,
+        "end": 133
+      },
+      {
+        "keyword": "person",
+        "start": 138,
+        "end": 141
+      }
+    ]
+  },
+  {
+    "title": "Love Thy Nature",
+    "runtime": 76.0,
+    "genres": ["Documentary"],
+    "overview": "Narrated by Liam Neeson, the award winning film 'Love Thy Nature' vividly illustrates how we've lost touch with nature and presents a compelling case that reconnecting with the natural world is the key to both good health and to solving our environmental crises. Traversing the globe, the film celebrates the dazzling natural spectacles of our planet while also revealing how a deep connection with nature can transform each of us and inspire us to restore endangered ecosystems, as well as our human family.",
+    "posterUrl": "https://image.tmdb.org/t/p/original/f70ATaDhC5MchaKpwIQ0tXGoM25.jpg",
+    "releaseDate": "2014-11-01",
+    "trailerUrl": "https://www.youtube.com/watch?v=e7yljPRMZJA",
+    "annotations": [
+      {
+        "keyword": "bear",
+        "score": 282.9
+      },
+      {
+        "keyword": "zebra",
+        "score": 359.2
+      },
+      {
+        "keyword": "giraffe",
+        "score": 146.5
+      },
+      {
+        "keyword": "horse",
+        "score": 655.3
+      },
+      {
+        "keyword": "person",
+        "score": 790.3
+      },
+      {
+        "keyword": "tv",
+        "score": 876.9
+      },
+      {
+        "keyword": "bird",
+        "score": 291.3
+      },
+      {
+        "keyword": "sea",
+        "score": 8.0
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "bear",
+        "start": 13,
+        "end": 15
+      },
+      {
+        "keyword": "bear",
+        "start": 23,
+        "end": 24
+      },
+      {
+        "keyword": "zebra",
+        "start": 15,
+        "end": 18
+      },
+      {
+        "keyword": "giraffe",
+        "start": 18,
+        "end": 20
+      },
+      {
+        "keyword": "horse",
+        "start": 24,
+        "end": 26
+      },
+      {
+        "keyword": "horse",
+        "start": 73,
+        "end": 74
+      },
+      {
+        "keyword": "person",
+        "start": 31,
+        "end": 43
+      },
+      {
+        "keyword": "person",
+        "start": 46,
+        "end": 48
+      },
+      {
+        "keyword": "person",
+        "start": 65,
+        "end": 74
+      },
+      {
+        "keyword": "person",
+        "start": 83,
+        "end": 89
+      },
+      {
+        "keyword": "person",
+        "start": 97,
+        "end": 98
+      },
+      {
+        "keyword": "person",
+        "start": 103,
+        "end": 106
+      },
+      {
+        "keyword": "person",
+        "start": 127,
+        "end": 142
+      },
+      {
+        "keyword": "tv",
+        "start": 67,
+        "end": 68
+      },
+      {
+        "keyword": "bird",
+        "start": 80,
+        "end": 81
+      },
+      {
+        "keyword": "sea",
+        "start": 10,
+        "end": 13
+      }
+    ]
+  },
+  {
+    "title": "One Life",
+    "runtime": 75,
+    "genres": ["Documentary", "Family"],
+    "overview": "One Life captures unprecedented and beautiful sequences of animal behaviour guaranteed to bring you closer to nature than ever before, as well as a second disc packed full of never before seen extras including an exclusive making of featurette narrated by Daniel Craig.",
+    "posterUrl": "https://www.themoviedb.org/t/p/w1280/zorlrbxahQjtIy6rHovTBTK8FcC.jpg",
+    "releaseDate": "2013-02-01",
+    "trailerUrl": "https://www.youtube.com/watch?v=9Y4jnNU0Azs",
+    "annotations": [
+      {
+        "keyword": "bird",
+        "score": 883.4
+      },
+      {
+        "keyword": "elephant",
+        "score": 812.3
+      },
+      {
+        "keyword": "mountain",
+        "score": 2.5
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "bird",
+        "start": 39,
+        "end": 40
+      },
+      {
+        "keyword": "bird",
+        "start": 43,
+        "end": 44
+      },
+      {
+        "keyword": "bird",
+        "start": 97,
+        "end": 98
+      },
+      {
+        "keyword": "elephant",
+        "start": 46,
+        "end": 49
+      },
+      {
+        "keyword": "elephant",
+        "start": 82,
+        "end": 84
+      },
+      {
+        "keyword": "elephant",
+        "start": 102,
+        "end": 103
+      },
+      {
+        "keyword": "mountain",
+        "start": 77,
+        "end": 78
+      }
+    ]
+  },
+  {
+    "title": "Sugar Mountain",
+    "runtime": 106.0,
+    "genres": ["Drama", "Thriller"],
+    "overview": "Two brothers, down on their luck, fake a disappearance in the Alaskan wilderness so they'll have a great survival story to sell, but the hoax turns out to be more real than they planned.",
+    "posterUrl": "https://www.themoviedb.org/t/p/w1280/nhpAX8Igm3sB52U2JRFxsb5rDqu.jpg",
+    "releaseDate": "2016-12-09",
+    "trailerUrl": "https://www.youtube.com/watch?v=2i6iNBv5kHc",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 539.5
+      },
+      {
+        "keyword": "boat",
+        "score": 472.8
+      },
+      {
+        "keyword": "car",
+        "score": 192.3
+      },
+      {
+        "keyword": "glacier",
+        "score": 3
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 1,
+        "end": 10
+      },
+      {
+        "keyword": "person",
+        "start": 13,
+        "end": 19
+      },
+      {
+        "keyword": "person",
+        "start": 22,
+        "end": 29
+      },
+      {
+        "keyword": "person",
+        "start": 31,
+        "end": 42
+      },
+      {
+        "keyword": "person",
+        "start": 44,
+        "end": 55
+      },
+      {
+        "keyword": "person",
+        "start": 59,
+        "end": 67
+      },
+      {
+        "keyword": "person",
+        "start": 70,
+        "end": 71
+      },
+      {
+        "keyword": "person",
+        "start": 73,
+        "end": 81
+      },
+      {
+        "keyword": "person",
+        "start": 83,
+        "end": 86
+      },
+      {
+        "keyword": "boat",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "keyword": "car",
+        "start": 71,
+        "end": 72
+      },
+      {
+        "keyword": "car",
+        "start": 79,
+        "end": 80
+      },
+      {
+        "keyword": "glacier",
+        "start": 19,
+        "end": 21
+      }
+    ]
+  },
+  {
+    "title": "Urbanized",
+    "runtime": 85,
+    "genres": ["Documentary"],
+    "overview": "A documentary about the design of cities, which looks at the issues and strategies behind urban design and features some of the world's foremost architects, planners, policymakers, builders, and thinkers.",
+    "posterUrl": "https://www.themoviedb.org/t/p/w1280/AlgE2Xj02j2Bb75eYfgDuPCzev2.jpg",
+    "releaseDate": "2011-09-09",
+    "trailerUrl": "https://www.youtube.com/watch?v=qHWwxBEfikw",
+    "annotations": [
+      {
+        "keyword": "person",
+        "score": 438.6
+      },
+      {
+        "keyword": "car",
+        "score": 127.3
+      },
+      {
+        "keyword": "street",
+        "score": 1
+      },
+      {
+        "keyword": "buildings",
+        "score": 1.5
+      }
+    ],
+    "segments": [
+      {
+        "keyword": "person",
+        "start": 8,
+        "end": 14
+      },
+      {
+        "keyword": "person",
+        "start": 16,
+        "end": 19
+      },
+      {
+        "keyword": "person",
+        "start": 34,
+        "end": 39
+      },
+      {
+        "keyword": "person",
+        "start": 41,
+        "end": 48
+      },
+      {
+        "keyword": "person",
+        "start": 50,
+        "end": 51
+      },
+      {
+        "keyword": "person",
+        "start": 53,
+        "end": 60
+      },
+      {
+        "keyword": "person",
+        "start": 67,
+        "end": 81
+      },
+      {
+        "keyword": "car",
+        "start": 20,
+        "end": 22
+      },
+      {
+        "keyword": "car",
+        "start": 59,
+        "end": 62
+      },
+      {
+        "keyword": "street",
+        "start": 20,
+        "end": 21
+      },
+      {
+        "keyword": "buildings",
+        "start": 22,
+        "end": 23
+      }
+    ]
   }
 ]

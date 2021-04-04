@@ -43,6 +43,7 @@ export enum Keyword {
   couch = 'couch',
   oven = 'oven',
   cup = 'cup',
+  zebra = 'zebra',
 }
 
 export enum Genres {
@@ -56,6 +57,7 @@ export enum Genres {
   FAMILY = 'Family',
   FANTASY = 'Fantasy',
   FOREIGN = 'Foreign',
+  HISTORY = 'History',
   HORROR = 'Horror',
   MYSTERY = 'Mystery',
   ROMANCE = 'Romance',
